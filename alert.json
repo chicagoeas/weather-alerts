@@ -10,170 +10,176 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.367fc29e761748ea7b8128e6136f2812d53188e6.001.1",
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -159.73,
-                            22.16
+                            -98.68,
+                            26.24
                         ],
                         [
-                            -159.58,
-                            22.24
+                            -98.68,
+                            26.26
                         ],
                         [
-                            -159.53,
-                            22.22
+                            -98.72,
+                            26.27
                         ],
                         [
-                            -159.49,
-                            22.25
+                            -98.7,
+                            26.28
                         ],
                         [
-                            -159.44,
-                            22.24
+                            -98.71,
+                            26.29
                         ],
                         [
-                            -159.4,
-                            22.25
+                            -98.73,
+                            26.3
                         ],
                         [
-                            -159.33,
-                            22.22
+                            -98.75,
+                            26.3
                         ],
                         [
-                            -159.31,
-                            22.16
+                            -98.75,
+                            26.31
                         ],
                         [
-                            -159.28,
-                            22.15
+                            -98.74,
+                            26.31
                         ],
                         [
-                            -159.33,
-                            22.05
+                            -98.75,
+                            26.33
                         ],
                         [
-                            -159.32,
-                            21.96
+                            -98.78,
+                            26.33
                         ],
                         [
-                            -159.34,
-                            21.95
+                            -98.8,
+                            26.37
                         ],
                         [
-                            -159.34,
-                            21.93
+                            -98.83,
+                            26.37
                         ],
                         [
-                            -159.36,
-                            21.92
+                            -98.79,
+                            26.48
                         ],
                         [
-                            -159.45,
-                            21.86
+                            -98.5,
+                            26.42
                         ],
                         [
-                            -159.61,
-                            21.88
+                            -98.59,
+                            26.26
                         ],
                         [
-                            -159.67,
-                            21.94
+                            -98.62,
+                            26.25
                         ],
                         [
-                            -159.77,
-                            21.98
+                            -98.62,
+                            26.26
                         ],
                         [
-                            -159.8,
-                            22.06
+                            -98.64,
+                            26.24
                         ],
                         [
-                            -159.8,
-                            22.07
-                        ],
-                        [
-                            -159.73,
-                            22.16
+                            -98.68,
+                            26.24
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.367fc29e761748ea7b8128e6136f2812d53188e6.001.1",
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.367fc29e761748ea7b8128e6136f2812d53188e6.001.1",
-                "areaDesc": "Kauai, HI",
+                "id": "urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
+                "areaDesc": "Starr, TX",
                 "geocode": {
                     "SAME": [
-                        "015007"
+                        "048427"
                     ],
                     "UGC": [
-                        "HIC007"
+                        "TXC427"
                     ]
                 },
                 "affectedZones": [
-                    "https://api.weather.gov/zones/county/HIC007"
+                    "https://api.weather.gov/zones/county/TXC427"
                 ],
-                "references": [
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.41cac777666c7946892e2493433d8986e0afea60.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.41cac777666c7946892e2493433d8986e0afea60.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-02-21T02:50:00-10:00"
-                    },
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28cc923ba3ed4b759eead6b4bcc6e1a8f185957.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.c28cc923ba3ed4b759eead6b4bcc6e1a8f185957.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-02-21T03:49:00-10:00"
-                    }
-                ],
-                "sent": "2026-02-21T05:32:00-10:00",
-                "effective": "2026-02-21T05:32:00-10:00",
-                "onset": "2026-02-21T05:32:00-10:00",
-                "expires": "2026-02-21T09:00:00-10:00",
-                "ends": "2026-02-21T09:00:00-10:00",
+                "references": [],
+                "sent": "2026-03-08T00:08:00-06:00",
+                "effective": "2026-03-08T00:08:00-06:00",
+                "onset": "2026-03-08T00:08:00-06:00",
+                "expires": "2026-03-08T00:45:00-06:00",
+                "ends": "2026-03-08T00:45:00-06:00",
                 "status": "Actual",
-                "messageType": "Update",
+                "messageType": "Alert",
                 "category": "Met",
                 "severity": "Severe",
-                "certainty": "Likely",
+                "certainty": "Observed",
                 "urgency": "Immediate",
-                "event": "Flash Flood Warning",
+                "event": "Severe Thunderstorm Warning",
                 "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Honolulu HI",
-                "headline": "Flash Flood Warning issued February 21 at 5:32AM HST until February 21 at 9:00AM HST by NWS Honolulu HI",
-                "description": "FFWHFO\n\nThe National Weather Service in Honolulu has extended the\n\n* Flash Flood Warning for...\nThe island of Kauai in Kauai County\n\n* Until 900 AM HST.\n\n* At 532 AM HST, radar indicated heavy rain over the island of\nKauai. Rain was falling at a rate of 2 to 4 inches per hour.\nAdditionally, the Hanalei River water levels are currently high\nenough for Kauai Police to close Kuhio Highway near the Hanalei\nRiver Bridge due to significant water over the roadway. Flash\nflooding is ongoing.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Radar.\n\nIMPACT...Flooding in drainages, streams, rivers, roads,\nproperties, and other low-lying areas. Public road\nclosures possible in some areas. Landslides are\npossible in steep terrain.\n\n* Some locations that will experience flash flooding include...\nthe entire island of Kauai.",
-                "instruction": "Stay away from streams, rivers, drainage ditches, and culverts, even\nif they are currently dry.\n\nDo not cross fast flowing or rising water in your vehicle, or on\nfoot. Turn around, don't drown.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nThe heavy rains may cause rock and mudslides in steep terrain areas.",
-                "response": "Avoid",
+                "senderName": "NWS Brownsville TX",
+                "headline": "Severe Thunderstorm Warning issued March 8 at 12:08AM CST until March 8 at 12:45AM CST by NWS Brownsville TX",
+                "description": "SVRBRO\n\nThe National Weather Service in Brownsville has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Starr County in Deep South Texas...\n\n* Until 1245 AM CST.\n\n* At 1207 AM CST, a severe thunderstorm was located over Las Lomas,\nor near Garciasville, moving east at 25 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR STARR COUNTY!.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nRio Grande City, Sullivan City, Garciasville, La Grulla, La Puerta,\nRinggold Middle School, La Victoria, Fort Ringgold County Park,\nStarr County Sheriffs Office, and Alto Bonito.",
+                "instruction": "Prepare immediately for large hail and deadly cloud to ground\nlightning. Seek shelter inside a well-built structure. Stay away from\nwindows.\n\nThis is a dangerous storm. Prepare immediately for large destructive\nhail capable of producing significant damage. People outside should\nmove to shelter inside a strong building, and stay away from windows.\n\nThis storm is producing destructive winds and large damaging hail.\nSEEK SHELTER NOW inside a sturdy structure and stay away from\nwindows!\n\nThis is a dangerous storm, capable of producing large hail driven by\nsevere winds! SEEK SHELTER NOW inside a sturdy structure and stay\naway from windows! If you are caught outdoors, cover your head and\nneck.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+                "response": "Shelter",
                 "parameters": {
                     "AWIPSidentifier": [
-                        "FFWHFO"
+                        "SVRBRO"
                     ],
                     "WMOidentifier": [
-                        "WGHW50 PHFO 211532"
+                        "WUUS54 KBRO 080608"
                     ],
-                    "flashFloodDetection": [
+                    "eventMotionDescription": [
+                        "2026-03-08T06:07:00-00:00...storm...286DEG...21KT...26.38,-98.76"
+                    ],
+                    "windThreat": [
                         "RADAR INDICATED"
                     ],
+                    "maxWindGust": [
+                        "60 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "3.00"
+                    ],
+                    "thunderstormDamageThreat": [
+                        "DESTRUCTIVE"
+                    ],
                     "BLOCKCHANNEL": [
                         "EAS",
-                        "NWEM",
-                        "CMAS"
+                        "NWEM"
                     ],
                     "EAS-ORG": [
                         "WXR"
                     ],
                     "VTEC": [
-                        "/O.EXT.PHFO.FF.W.0004.000000T0000Z-260221T1900Z/"
+                        "/O.NEW.KBRO.SV.W.0005.260308T0608Z-260308T0645Z/"
                     ],
                     "eventEndingTime": [
-                        "2026-02-21T09:00:00-10:00"
+                        "2026-03-08T00:45:00-06:00"
+                    ],
+                    "WEAHandling": [
+                        "Imminent Threat"
+                    ],
+                    "CMAMtext": [
+                        "NWS:DESTRUCTIVE HAIL STORM in this area til 1245 AM CST. Take shelter now. Check media."
+                    ],
+                    "CMAMlongtext": [
+                        "National Weather Service: SEVERE THUNDERSTORM WARNING in effect for this area until 12:45 AM CST for DESTRUCTIVE three inch size hail. Take shelter in a sturdy building, away from windows. People and animals outdoors will be severely injured."
                     ]
                 },
                 "scope": "Public",
@@ -182,116 +188,15 @@
                 "web": "http://www.weather.gov",
                 "eventCode": {
                     "SAME": [
-                        "FFW"
+                        "SVR"
                     ],
                     "NationalWeatherService": [
-                        "FFW"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6eac99c2370c338c930a22a74b38e02936761ab5.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6eac99c2370c338c930a22a74b38e02936761ab5.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.6eac99c2370c338c930a22a74b38e02936761ab5.001.1",
-                "areaDesc": "Niihau; Kauai Southwest; Kauai Mountains; Kauai North; Kauai East; Kauai South",
-                "geocode": {
-                    "SAME": [
-                        "015007"
-                    ],
-                    "UGC": [
-                        "HIZ001",
-                        "HIZ003",
-                        "HIZ004",
-                        "HIZ029",
-                        "HIZ030",
-                        "HIZ031"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/forecast/HIZ001",
-                    "https://api.weather.gov/zones/forecast/HIZ003",
-                    "https://api.weather.gov/zones/forecast/HIZ004",
-                    "https://api.weather.gov/zones/forecast/HIZ029",
-                    "https://api.weather.gov/zones/forecast/HIZ030",
-                    "https://api.weather.gov/zones/forecast/HIZ031"
-                ],
-                "references": [
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28ac23986ac45c77c5a32251e5fb49dfeafead2e.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.28ac23986ac45c77c5a32251e5fb49dfeafead2e.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-02-20T16:56:00-10:00"
-                    },
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d98d6c013a16de4a321e30fa0636bcf66abe8ab7.002.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.d98d6c013a16de4a321e30fa0636bcf66abe8ab7.002.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-02-20T18:02:00-10:00"
-                    }
-                ],
-                "sent": "2026-02-21T01:37:00-10:00",
-                "effective": "2026-02-21T01:37:00-10:00",
-                "onset": "2026-02-21T01:37:00-10:00",
-                "expires": "2026-02-21T17:00:00-10:00",
-                "ends": "2026-02-21T18:00:00-10:00",
-                "status": "Actual",
-                "messageType": "Update",
-                "category": "Met",
-                "severity": "Severe",
-                "certainty": "Possible",
-                "urgency": "Future",
-                "event": "Flood Watch",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Honolulu HI",
-                "headline": "Flood Watch issued February 21 at 1:37AM HST until February 21 at 6:00PM HST by NWS Honolulu HI",
-                "description": "...FLOOD WATCH IN EFFECT FOR NIIHAU KAUAI AND OAHU THROUGH THIS\nAFTERNOON FOR KAUAI COUNTY AND OAHU...\n\n* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Niihau and Kauai.\n\n* WHEN...Through this afternoon.\n\n* IMPACTS...Flood prone roads and other low lying areas may be\nclosed due to elevated runoff and overflowing streams. Urban areas\nmay receive more significant flooding and property damage due to\nrapid runoff.\n\n* ADDITIONAL DETAILS...\n- An upper level trough swinging through the northwestern\nislands today will produce periods of heavy showers and\nisolated thunderstorms. The trough axis should lift north of\nthe area later this afternoon, which should diminish the\nflooding threat.",
-                "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
-                "response": "Prepare",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "FFAHFO"
-                    ],
-                    "WMOidentifier": [
-                        "WGHW60 PHFO 211137"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.EXT.PHFO.FA.A.0003.000000T0000Z-260222T0400Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-02-21T18:00:00-10:00"
-                    ],
-                    "expiredReferences": [
-                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.43952b552682b514e2109ac87af5605ec7ab159f.001.1,2026-02-20T03:46:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fcb8b707b334e5f13a27a3de51d6c7c2de8bc4bd.001.1,2026-02-19T15:13:00-10:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "FFA"
-                    ],
-                    "NationalWeatherService": [
-                        "FAA"
+                        "SVW"
                     ]
                 }
             }
         }
     ],
-    "title": "Current watches, warnings, and advisories for 21.9596 N, 159.6753 W",
-    "updated": "2026-02-21T15:33:04+00:00"
+    "title": "Current watches, warnings, and advisories for 26.35 N, 98.67 W",
+    "updated": "2026-03-08T06:08:21+00:00"
 }
