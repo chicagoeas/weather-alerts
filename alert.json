@@ -1,202 +1,94 @@
 {
-    "@context": [
-        "https://geojson.org/geojson-ld/geojson-context.jsonld",
-        {
-            "@version": "1.1",
-            "wx": "https://api.weather.gov/ontology#",
-            "@vocab": "https://api.weather.gov/ontology#"
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9f8e7d6c5b4a32100123456789abcdef12345678.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-121.90, 42.00],
+            [-121.88, 42.00],
+            [-121.95, 41.94],
+            [-121.93, 41.94],
+            [-121.90, 42.00]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9f8e7d6c5b4a32100123456789abcdef12345678.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.9f8e7d6c5b4a32100123456789abcdef12345678.001.1",
+        "areaDesc": "Siskiyou County, CA",
+        "geocode": {
+          "SAME": [
+            "006093"
+          ],
+          "UGC": [
+            "CAC093"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/CAC093"
+        ],
+        "references": [],
+        "sent": "2026-03-17T20:18:00-00:00",
+        "effective": "2026-03-17T20:18:00-00:00",
+        "onset": "2026-03-17T20:18:00-00:00",
+        "expires": "2026-03-18T04:18:00-00:00",
+        "ends": "2026-03-18T04:18:00-00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Safety",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Hazardous Materials Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Medford OR",
+        "headline": "Hazardous Materials Warning issued March 17 at 1:18PM PDT until March 17 at 9:18PM PDT by NWS Medford OR",
+        "description": "...Hwy 97 Closed in Dorris Due to Hazmat...\n\nThe following message is transmitted at the request of Siskiyou County.\n\n***For passenger vehicles only***\n\nNorth Bound Traffic Reroute due to road closure on Hwy 97 in Dorris. Alternate Route: From Northbound Hwy97... Turn East on Shady Dell Rd... North on E. Butte Vly Rd... North on Dorris/Brown Rd... North on Center St to Hwy 97.\n\n*** Passenger Vehicles Only ***\n\n***For passenger vehicles only***\n\nNorth Bound Traffic Reroute due to road closure on Hwy 97 in Dorris. Alternate Route: From Northbound Hwy97... Turn East on Shady Dell Rd... North on E. Butte Vly Rd... North on Dorris/Brown Rd... North on Center St to Hwy 97.\n\n*** Passenger Vehicles Only ***\n\n&&\n\nLAT...LON 4200 12190 4200 12188 4194 12193 4194 12195\n\n$$\n\n17737787150001393522449",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "HMWMFR"
+          ],
+          "WMOidentifier": [
+            "WHUS56 KMFR 172018"
+          ],
+          "NWSheadline": [
+            "HAZARDOUS MATERIALS WARNING FOR SISKIYOU COUNTY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "CIV"
+          ],
+          "VTEC": [
+            "/O.NEW.KMFR.HZ.W.0001.260317T2018Z-260318T0418Z/"
+          ],
+          "eventEndingTime": [
+            "2026-03-18T04:18:00-00:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "HMW"
+          ],
+          "NationalWeatherService": [
+            "HMW"
+          ]
         }
-    ],
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -98.68,
-                            26.24
-                        ],
-                        [
-                            -98.68,
-                            26.26
-                        ],
-                        [
-                            -98.72,
-                            26.27
-                        ],
-                        [
-                            -98.7,
-                            26.28
-                        ],
-                        [
-                            -98.71,
-                            26.29
-                        ],
-                        [
-                            -98.73,
-                            26.3
-                        ],
-                        [
-                            -98.75,
-                            26.3
-                        ],
-                        [
-                            -98.75,
-                            26.31
-                        ],
-                        [
-                            -98.74,
-                            26.31
-                        ],
-                        [
-                            -98.75,
-                            26.33
-                        ],
-                        [
-                            -98.78,
-                            26.33
-                        ],
-                        [
-                            -98.8,
-                            26.37
-                        ],
-                        [
-                            -98.83,
-                            26.37
-                        ],
-                        [
-                            -98.79,
-                            26.48
-                        ],
-                        [
-                            -98.5,
-                            26.42
-                        ],
-                        [
-                            -98.59,
-                            26.26
-                        ],
-                        [
-                            -98.62,
-                            26.25
-                        ],
-                        [
-                            -98.62,
-                            26.26
-                        ],
-                        [
-                            -98.64,
-                            26.24
-                        ],
-                        [
-                            -98.68,
-                            26.24
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.3ed2c7deedd3ee257a4165ba9e2c173d5fc1b812.001.1",
-                "areaDesc": "Starr, TX",
-                "geocode": {
-                    "SAME": [
-                        "048427"
-                    ],
-                    "UGC": [
-                        "TXC427"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/TXC427"
-                ],
-                "references": [],
-                "sent": "2026-03-08T00:08:00-06:00",
-                "effective": "2026-03-08T00:08:00-06:00",
-                "onset": "2026-03-08T00:08:00-06:00",
-                "expires": "2026-03-08T00:45:00-06:00",
-                "ends": "2026-03-08T00:45:00-06:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Severe",
-                "certainty": "Observed",
-                "urgency": "Immediate",
-                "event": "Severe Thunderstorm Warning",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Brownsville TX",
-                "headline": "Severe Thunderstorm Warning issued March 8 at 12:08AM CST until March 8 at 12:45AM CST by NWS Brownsville TX",
-                "description": "SVRBRO\n\nThe National Weather Service in Brownsville has issued a\n\n* Severe Thunderstorm Warning for...\nSoutheastern Starr County in Deep South Texas...\n\n* Until 1245 AM CST.\n\n* At 1207 AM CST, a severe thunderstorm was located over Las Lomas,\nor near Garciasville, moving east at 25 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR STARR COUNTY!.\n\nHAZARD...Three inch hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\n* Locations impacted include...\nRio Grande City, Sullivan City, Garciasville, La Grulla, La Puerta,\nRinggold Middle School, La Victoria, Fort Ringgold County Park,\nStarr County Sheriffs Office, and Alto Bonito.",
-                "instruction": "Prepare immediately for large hail and deadly cloud to ground\nlightning. Seek shelter inside a well-built structure. Stay away from\nwindows.\n\nThis is a dangerous storm. Prepare immediately for large destructive\nhail capable of producing significant damage. People outside should\nmove to shelter inside a strong building, and stay away from windows.\n\nThis storm is producing destructive winds and large damaging hail.\nSEEK SHELTER NOW inside a sturdy structure and stay away from\nwindows!\n\nThis is a dangerous storm, capable of producing large hail driven by\nsevere winds! SEEK SHELTER NOW inside a sturdy structure and stay\naway from windows! If you are caught outdoors, cover your head and\nneck.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
-                "response": "Shelter",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "SVRBRO"
-                    ],
-                    "WMOidentifier": [
-                        "WUUS54 KBRO 080608"
-                    ],
-                    "eventMotionDescription": [
-                        "2026-03-08T06:07:00-00:00...storm...286DEG...21KT...26.38,-98.76"
-                    ],
-                    "windThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxWindGust": [
-                        "60 MPH"
-                    ],
-                    "hailThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxHailSize": [
-                        "3.00"
-                    ],
-                    "thunderstormDamageThreat": [
-                        "DESTRUCTIVE"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.NEW.KBRO.SV.W.0005.260308T0608Z-260308T0645Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-03-08T00:45:00-06:00"
-                    ],
-                    "WEAHandling": [
-                        "Imminent Threat"
-                    ],
-                    "CMAMtext": [
-                        "NWS:DESTRUCTIVE HAIL STORM in this area til 1245 AM CST. Take shelter now. Check media."
-                    ],
-                    "CMAMlongtext": [
-                        "National Weather Service: SEVERE THUNDERSTORM WARNING in effect for this area until 12:45 AM CST for DESTRUCTIVE three inch size hail. Take shelter in a sturdy building, away from windows. People and animals outdoors will be severely injured."
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "SVR"
-                    ],
-                    "NationalWeatherService": [
-                        "SVW"
-                    ]
-                }
-            }
-        }
-    ],
-    "title": "Current watches, warnings, and advisories for 26.35 N, 98.67 W",
-    "updated": "2026-03-08T06:08:21+00:00"
+      }
+    }
+  ]
 }
