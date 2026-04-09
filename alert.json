@@ -10,183 +10,105 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ddf0c4293d4bbdd5304c7ab26be90e33ddd19df.001.1",
+            "id": "https://api.weather.gov/alerts/OnSolve-6b67e0c329a94aae8eb0f49bd81fd9ab",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -98.92,
-                            26.51
+                            -107.6296,
+                            45.7457
                         ],
                         [
-                            -98.67,
-                            26.46
+                            -107.638,
+                            45.7557
                         ],
                         [
-                            -98.74,
-                            26.29
+                            -107.6188,
+                            45.7574
                         ],
                         [
-                            -98.76,
-                            26.31
+                            -107.5886,
+                            45.7527
                         ],
                         [
-                            -98.74,
-                            26.3
+                            -107.5958,
+                            45.722
                         ],
                         [
-                            -98.74,
-                            26.31
+                            -107.6334,
+                            45.7294
                         ],
                         [
-                            -98.75,
-                            26.33
-                        ],
-                        [
-                            -98.78,
-                            26.33
-                        ],
-                        [
-                            -98.8,
-                            26.37
-                        ],
-                        [
-                            -98.82,
-                            26.37
-                        ],
-                        [
-                            -98.84,
-                            26.36
-                        ],
-                        [
-                            -98.86,
-                            26.37
-                        ],
-                        [
-                            -98.9,
-                            26.35
-                        ],
-                        [
-                            -98.93,
-                            26.39
-                        ],
-                        [
-                            -98.95,
-                            26.37
-                        ],
-                        [
-                            -98.96,
-                            26.4
-                        ],
-                        [
-                            -98.92,
-                            26.51
+                            -107.6296,
+                            45.7457
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2ddf0c4293d4bbdd5304c7ab26be90e33ddd19df.001.1",
+                "@id": "https://api.weather.gov/alerts/OnSolve-6b67e0c329a94aae8eb0f49bd81fd9ab",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.2ddf0c4293d4bbdd5304c7ab26be90e33ddd19df.001.1",
-                "areaDesc": "Starr, TX",
+                "id": "OnSolve-6b67e0c329a94aae8eb0f49bd81fd9ab",
+                "areaDesc": "MT City of Hardin Police Department",
                 "geocode": {
                     "SAME": [
-                        "048427"
-                    ],
-                    "UGC": [
-                        "TXC427"
+                        "030003"
                     ]
                 },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/TXC427"
-                ],
-                "references": [
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a79a6ef74ea978352c223359979f6528086dc892.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.a79a6ef74ea978352c223359979f6528086dc892.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-03-07T23:30:00-06:00"
-                    }
-                ],
-                "sent": "2026-03-07T23:46:00-06:00",
-                "effective": "2026-03-07T23:46:00-06:00",
-                "onset": "2026-03-07T23:46:00-06:00",
-                "expires": "2026-03-08T00:15:00-06:00",
-                "ends": "2026-03-08T00:15:00-06:00",
+                "affectedZones": [],
+                "references": [],
+                "sent": "2026-04-09T11:45:03-04:00",
+                "effective": "2026-04-09T11:45:03-04:00",
+                "onset": null,
+                "expires": "2026-04-09T12:45:03-04:00",
+                "ends": null,
                 "status": "Actual",
-                "messageType": "Update",
-                "category": "Met",
+                "messageType": "Alert",
+                "category": "Safety",
                 "severity": "Severe",
                 "certainty": "Observed",
                 "urgency": "Immediate",
-                "event": "Severe Thunderstorm Warning",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Brownsville TX",
-                "headline": "Severe Thunderstorm Warning issued March 7 at 11:46PM CST until March 8 at 12:15AM CST by NWS Brownsville TX",
-                "description": "At 1145 PM CST, a severe thunderstorm was located over Starr County\nMemorial Hospital, or over Rio Grande City, moving southeast at 30\nmph.\n\nTHIS IS A DESTRUCTIVE STORM FOR STARR COUNTY!.\n\nHAZARD...Softball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be severely injured.\nExpect shattered windows, extensive damage to roofs,\nsiding, and vehicles.\n\nLocations impacted include...\nRio Grande City, La Rosita, Starr County Memorial Hospital, La\nPuerta, Ringgold Middle School, Los Alvarez, Fort Ringgold County\nPark, Garceno, Starr County Sheriffs Office, and Rio Grande City\nMunicipal Airport.",
-                "instruction": "This is a dangerous storm. Prepare immediately for large destructive\nhail capable of producing significant damage. People outside should\nmove to a shelter, inside a strong building and away from windows.\n\nThis storm is producing destructive winds and large damaging hail.\nSEEK SHELTER NOW inside a sturdy structure and stay away from\nwindows.\n\nTo report severe weather contact your nearest law enforcement agency.\nThey will send your report to the National Weather Service office in\nBrownsville.\n\nThis is a dangerous storm, capable of producing large hail driven by\nsevere winds! SEEK SHELTER NOW inside a sturdy structure and stay\naway from windows! If you are caught outdoors, cover your head and\nneck.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
-                "response": "Shelter",
+                "event": "Law Enforcement Warning",
+                "sender": "Paul.George",
+                "senderName": "202250,MT City of Hardin Police Department,",
+                "headline": "Law Enforcement Warning",
+                "description": "EFFECTIVE TONIGHT (THURSDAY, APRIL 9TH at 11:59 PM)\nHPD Dispatch, which has been contracted to 911iNet in Alabama will no longer be providing dispatch services to HPD.  An agreement has been made, and all dispatch services will be handled again by BHC Dispatch. The phone number 406-665-7900 will continue to work for the next couple of months, but will be forwarded to BHC Dispatch (406-665-9780). If you have an emergency, please dial 911. If you don't have an emergency, please dial 665-9780 and an HPD officer will be dispatched within the City Limits.",
+                "instruction": null,
+                "response": "Prepare",
                 "parameters": {
-                    "AWIPSidentifier": [
-                        "SVSBRO"
+                    "EAS-ORG": [
+                        "CIV"
                     ],
-                    "WMOidentifier": [
-                        "WWUS54 KBRO 080546"
+                    "WEAHandling": [
+                        "Public Safety"
                     ],
-                    "NWSheadline": [
-                        "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 1215 AM CST FOR SOUTH CENTRAL STARR COUNTY"
+                    "CMAMtext": [
+                        "EFFECTIVE THURSDAY, APRIL 9TH AT 11:59 PM HPD Dispatch  should be reached at 665-9780."
                     ],
-                    "eventMotionDescription": [
-                        "2026-03-08T05:45:00-00:00...storm...294DEG...26KT...26.38,-98.86"
-                    ],
-                    "windThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxWindGust": [
-                        "60 MPH"
-                    ],
-                    "hailThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxHailSize": [
-                        "4.00"
-                    ],
-                    "thunderstormDamageThreat": [
-                        "DESTRUCTIVE"
+                    "CMAMlongtext": [
+                        "EFFECTIVE TONIGHT (THURSDAY, APRIL 9TH at 11:59 PM) HPD Dispatch services will be handled again by BHC Dispatch. The phone number 406-665-7900 will continue to work for the next couple of months, but will be forwarded to BHC Dispatch. If you have an emergency, dial 911. For non-emergency, please dial 665-9780 and an HPD officer will be dispatched."
                     ],
                     "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
+                        "PUBLIC"
                     ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.CON.KBRO.SV.W.0004.000000T0000Z-260308T0615Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-03-08T00:15:00-06:00"
+                    "timezone": [
+                        "MST"
                     ]
                 },
                 "scope": "Public",
                 "code": "IPAWSv1.0",
                 "language": "en-US",
-                "web": "http://www.weather.gov",
+                "web": null,
                 "eventCode": {
                     "SAME": [
-                        "SVS"
-                    ],
-                    "NationalWeatherService": [
-                        "SVW"
+                        "LEW"
                     ]
                 }
             }
         }
     ],
-    "title": "Current watches, warnings, and advisories for 26.39 N, 98.82 W",
-    "updated": "2026-03-08T05:46:51+00:00"
+    "title": "Current watches, warnings, and advisories for 45.73 N, 107.6 W",
+    "updated": "2026-04-09T15:49:55+00:00"
 }
