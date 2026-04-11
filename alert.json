@@ -48,7 +48,7 @@
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
         "headline": "Local Area Emergency issued April 11 at 1:00PM CDT until April 12 at 4:15AM CDT by NWS Chicago IL",
-        "description": "...Local Area Emergency affecting the Neighborhood of Avondale...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nSuspicious person reported driving around the neighborhood of Avondale.\nMay be armed and dangerous. Do not approach suspicious vehicles or persons.\nThe suspect was driving north on Western Avenue near Diversey and Elston Avenue at 1255PM.\nIf you see a red sedan with tinted windows with Illinois license plate E C 3 5 4 1 9,\ncall 9 1 1 immediately.\nTEST MESSAGE\n\n&&\n\nLAT...LON 4194 8773 4194 8769 4193 8768 4193 8772\n\n$$\n\nCHICAGO NOTIFYME ALERTS",
+        "description": "...Local Area Emergency affecting the Neighborhood of Avondale...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nSuspicious person reported driving around the neighborhood of Avondale.\nMay be armed and dangerous. Do not approach suspicious vehicles or persons.\nThe suspect was driving north on Western Avenue near Diversey and Elston Avenue at 1255PM.\nIf you see a red sedan with tinted windows with Illinois license plate E C 3 5 4 1 9,\ncall 9 1 1 immediately.\nTEST MESSAGE",
         "instruction": "Avoid the area and do not approach the suspect. Contact law enforcement if observed.",
         "response": "Execute",
         "parameters": {
