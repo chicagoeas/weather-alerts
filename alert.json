@@ -2,25 +2,25 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cemtest60618abcdef1234567890abcdef.001.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [-87.65, 41.85],
-            [-87.55, 41.85],
-            [-87.55, 41.75],
-            [-87.65, 41.75],
-            [-87.65, 41.85]
+            [-87.73, 41.94],
+            [-87.69, 41.94],
+            [-87.68, 41.93],
+            [-87.72, 41.93],
+            [-87.73, 41.94]
           ]
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cemtest60618abcdef1234567890abcdef.001.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.cemtest60618abcdef1234567890abcdef.001.1",
-        "areaDesc": "Central Cook County, IL",
+        "id": "urn:oid:2.49.0.1.840.0.lae60618abcdef1234567890abcdef.001.1",
+        "areaDesc": "Cook County, IL",
         "geocode": {
           "SAME": [
             "017031"
@@ -33,33 +33,33 @@
           "https://api.weather.gov/zones/county/ILC031"
         ],
         "references": [],
-        "sent": "2026-04-11T16:00:00-05:00",
-        "effective": "2026-04-11T16:00:00-05:00",
-        "onset": "2026-04-11T16:00:00-05:00",
-        "expires": "2026-04-11T16:30:00-05:00",
-        "ends": "2026-04-11T16:30:00-05:00",
+        "sent": "2026-04-11T18:00:00-05:00",
+        "effective": "2026-04-11T18:00:00-05:00",
+        "onset": "2026-04-11T18:00:00-05:00",
+        "expires": "2026-04-12T04:15:00-05:00",
+        "ends": "2026-04-12T04:15:00-05:00",
         "status": "Actual",
         "messageType": "Alert",
         "category": "Safety",
-        "severity": "Moderate",
+        "severity": "Severe",
         "certainty": "Observed",
         "urgency": "Immediate",
-        "event": "Civil Emergency Message",
+        "event": "Local Area Emergency",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
-        "headline": "Civil Emergency Message issued April 11 at 11:16 AM CDT by NWS Chicago IL",
-        "description": "THIS IS AN ANNUAL TEST OF THE SIX O SIX ONE EIGHT WEATHER ALERT SYSTEM.\n\nThis alert system will activate for watches, warnings, and advisories issued by the National Weather Service in Chicago, IL for the six o six one eight zip code.\n\nTHIS IS TEST.\n\nIf this were a real emergency, you should take action immediately and follow safety guidelines.\n\nAlthough this is not an official FCC regulated station, we still broadcast real alerts issued by the National Weather Service and also any non-weather emergency alerts relayed by the National Weather Service.\n\nFOR MORE INFORMATION, PLEASE CONTACT OUR BROADCAST STATION.\n\nWe now resume our regular programming.",
-        "instruction": null,
+        "headline": "Local Area Emergency issued April 11 at 1:00PM CDT until April 12 at 4:15AM CDT by NWS Chicago IL",
+        "description": "...Local Area Emergency affecting the Neighborhood of Avondale...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nSuspicious person reported driving around the neighborhood of Avondale.\nMay be armed and dangerous. Do not approach suspicious vehicles or persons.\nThe suspect was driving north on Western Avenue near Diversey and Elston Avenue at 1255PM.\nIf you see a red sedan with tinted windows with Illinois license plate E C 3 5 4 1 9,\ncall 9 1 1 immediately.\nTEST MESSAGE\n\n&&\n\nLAT...LON 4194 8773 4194 8769 4193 8768 4193 8772\n\n$$\n\nCHICAGO NOTIFYME ALERTS",
+        "instruction": "Avoid the area and do not approach the suspect. Contact law enforcement if observed.",
         "response": "Execute",
         "parameters": {
           "AWIPSidentifier": [
-            "CEMLOT"
+            "LAELOT"
           ],
           "WMOidentifier": [
-            "WOUS63 KLOT 111600"
+            "WOUS43 KLOT 291310"
           ],
           "NWSheadline": [
-            "CIVIL EMERGENCY MESSAGE"
+            "LOCAL AREA EMERGENCY FOR COOK COUNTY"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -70,10 +70,10 @@
             "CIV"
           ],
           "VTEC": [
-            "/O.NEW.KLOT.CE.M.0001.260411T2100Z-260411T2130Z/"
+            "/O.NEW.KLOT.LA.E.0001.260411T1800Z-260412T0915Z/"
           ],
           "eventEndingTime": [
-            "2026-04-11T16:30:00-05:00"
+            "2026-04-12T04:15:00-05:00"
           ]
         },
         "scope": "Public",
@@ -82,10 +82,10 @@
         "web": "http://www.weather.gov",
         "eventCode": {
           "SAME": [
-            "CEM"
+            "LAE"
           ],
           "NationalWeatherService": [
-            "CEM"
+            "LAE"
           ]
         }
       }
