@@ -44,12 +44,12 @@
         "severity": "Extreme",
         "certainty": "Observed",
         "urgency": "Immediate",
-        "event": "Civil Danger Warning",
+        "event": "Six o six one eight Weather tornado threat Alert",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
-        "headline": "Civil Danger Warning issued April 11 at 1:00PM CDT until April 12 at 4:15AM CDT by NWS Chicago IL",
-        "description": "...Moth Man is on the loose...\n\nThe following message is transmitted at the request of the Chicago Police Department.\n\nMoth Man was spotted in the neighborhood of Avondale around noon today. He is reportedly attacking people and yelling at them and causing a disturbance. Police are attempting to contain him.\nIf you see Moth Man, call 9 1 1 immediately. Do not approach the man.\nStay tuned to local media outlets, radio stations, or weather radio for more information on this developing situation.\nTEST MESSAGE\nThis is an extremely dangerous situation. Take it seriously.",
-        "instruction": "Do not approach. Stay indoors and contact law enforcement immediately if the suspect is seen.",
+        "headline": "six o six one eight weather tornado threat alert",
+        "description": "...There is an Enhanced Tornado threat for Chicago tonight...\n\nThe following message is transmitted at by six o six one eight weather and is not an official NWS alert.\n\nTonight, the Storm Prediction Center has issued a 10 percent risk of tornadoes for the Chicago area, with CIG 1 hatching.\nThis translates to a fairly major threat of tornadoes for the Chicago area.\nSTAY TUNED TO THIS CHANNEL.\nBe aware for any watches or warnings issued for your area tonight.",
+        "instruction": "This is a potentially dangerous situation for your area. Stay tuned to six o six one eight weather for NWS warnings, watches, and advisories issued for your area tonight.",
         "response": "Execute",
         "parameters": {
           "AWIPSidentifier": [
