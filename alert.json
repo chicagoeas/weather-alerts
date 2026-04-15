@@ -44,12 +44,12 @@
         "severity": "Extreme",
         "certainty": "Observed",
         "urgency": "Immediate",
-        "event": "Six o six one eight Weather tornado threat Alert",
+        "event": "Storm Prediction Center Mesoscale Discussion Alert",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Chicago IL",
-        "headline": "six o six one eight weather tornado threat alert",
-        "description": "...There is an Enhanced Tornado threat for Chicago tonight...\n\nThe following message is transmitted at by six o six one eight weather and is not an official NWS alert.\n\nTonight, the Storm Prediction Center has issued a 10 percent risk of tornadoes for the Chicago area, with CIG 1 hatching.\nThis translates to a fairly major threat of tornadoes for the Chicago area.\nSTAY TUNED TO THIS CHANNEL.\nBe aware for any watches or warnings issued for your area tonight.",
-        "instruction": "This is a potentially dangerous situation for your area. Stay tuned to six o six one eight weather for NWS warnings, watches, and advisories issued for your area tonight.",
+        "headline": "Storm Prediction Center Mesoscale Discussion Alert",
+        "description": "...THE STORM PREDICTION CENTER HAS ISSUED A MESOSCALE DISCUSSION FOR YOUR AREA...\n\nThe following message is transmitted by the six o six one eight weather broadcast team and is not an official NWS alert.\n\nA TORNADO WATCH IS POSSIBLE FOR CHICAGO WITHIN THE NEXT COUPLE HOURS...\nSTAY TUNED TO THIS CHANNEL.\nBe aware for any watches or warnings issued for your area tonight.",
+        "instruction": "A tornado watch for your area means that conditions are favorable for the development of severe weather, including tornadoes, large hail, and damaging winds in your area. Stay tuned to six o six one eight weather for NWS warnings, watches, and advisories issued for your area tonight.",
         "response": "Execute",
         "parameters": {
           "AWIPSidentifier": [
