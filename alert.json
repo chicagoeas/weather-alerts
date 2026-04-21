@@ -1,94 +1,453 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-87.73, 41.94],
-            [-87.69, 41.94],
-            [-87.68, 41.93],
-            [-87.72, 41.93],
-            [-87.73, 41.94]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.cdw60618abcdef1234567890abcdef.001.1",
-        "areaDesc": "Cook County, IL",
-        "geocode": {
-          "SAME": [
-            "017031"
-          ],
-          "UGC": [
-            "ILC031"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/ILC031"
-        ],
-        "references": [],
-        "sent": "2026-04-11T18:00:00-05:00",
-        "effective": "2026-04-11T18:00:00-05:00",
-        "onset": "2026-04-11T18:00:00-05:00",
-        "expires": "2026-04-12T04:15:00-05:00",
-        "ends": "2026-04-12T04:15:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Safety",
-        "severity": "Extreme",
-        "certainty": "Observed",
-        "urgency": "Immediate",
-        "event": "Storm Prediction Center Mesoscale Discussion Alert",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Chicago IL",
-        "headline": "Storm Prediction Center Mesoscale Discussion Alert",
-        "description": "...THE STORM PREDICTION CENTER HAS ISSUED A MESOSCALE DISCUSSION FOR YOUR AREA...\n\nThe following message is transmitted by the six o six one eight weather broadcast team and is not an official NWS alert.\n\nA TORNADO WATCH IS POSSIBLE FOR CHICAGO WITHIN THE NEXT COUPLE HOURS...\nSTAY TUNED TO THIS CHANNEL.\nBe aware for any watches or warnings issued for your area tonight.",
-        "instruction": "A tornado watch for your area means that conditions are favorable for the development of severe weather, including tornadoes, large hail, and damaging winds in your area. Stay tuned to six o six one eight weather for NWS warnings, watches, and advisories issued for your area tonight.",
-        "response": "Execute",
-        "parameters": {
-          "AWIPSidentifier": [
-            "CDWLOT"
-          ],
-          "WMOidentifier": [
-            "WOUS43 KLOT 291310"
-          ],
-          "NWSheadline": [
-            "CIVIL DANGER WARNING FOR COOK COUNTY"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "CIV"
-          ],
-          "VTEC": [
-            "/O.NEW.KLOT.CD.W.0001.260411T1800Z-260412T0915Z/"
-          ],
-          "eventEndingTime": [
-            "2026-04-12T04:15:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "CDW"
-          ],
-          "NationalWeatherService": [
-            "CDW"
-          ]
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
         }
-      }
-    }
-  ]
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
+                "areaDesc": "Shawano; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Oconto County",
+                "geocode": {
+                    "SAME": [
+                        "055115",
+                        "055135",
+                        "055087",
+                        "055009",
+                        "055061",
+                        "055137",
+                        "055139",
+                        "055015",
+                        "055071",
+                        "055083"
+                    ],
+                    "UGC": [
+                        "WIZ031",
+                        "WIZ037",
+                        "WIZ038",
+                        "WIZ039",
+                        "WIZ040",
+                        "WIZ045",
+                        "WIZ048",
+                        "WIZ049",
+                        "WIZ050",
+                        "WIZ074"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/WIZ031",
+                    "https://api.weather.gov/zones/forecast/WIZ037",
+                    "https://api.weather.gov/zones/forecast/WIZ038",
+                    "https://api.weather.gov/zones/forecast/WIZ039",
+                    "https://api.weather.gov/zones/forecast/WIZ040",
+                    "https://api.weather.gov/zones/forecast/WIZ045",
+                    "https://api.weather.gov/zones/forecast/WIZ048",
+                    "https://api.weather.gov/zones/forecast/WIZ049",
+                    "https://api.weather.gov/zones/forecast/WIZ050",
+                    "https://api.weather.gov/zones/forecast/WIZ074"
+                ],
+                "references": [],
+                "sent": "2026-04-15T14:30:00-05:00",
+                "effective": "2026-04-15T14:30:00-05:00",
+                "onset": "2026-04-15T14:30:00-05:00",
+                "expires": "2026-04-15T23:00:00-05:00",
+                "ends": "2026-04-16T07:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Possible",
+                "urgency": "Future",
+                "event": "Flood Watch",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Green Bay WI",
+                "headline": "Flood Watch issued April 15 at 2:30PM CDT until April 16 at 7:00AM CDT by NWS Green Bay WI",
+                "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of central, east central, and northeast Wisconsin,\nincluding the following areas, in central Wisconsin, Waushara. In\neast central Wisconsin, Calumet, Manitowoc and Winnebago. In\nnortheast Wisconsin, Brown, Kewaunee, Outagamie, Shawano, Southern\nOconto County and Waupaca.\n\n* WHEN...Through Thursday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nArea creeks and streams are already running very high and could\nflood with more rain.\n\n* ADDITIONAL DETAILS...\n- Additional showers and thunderstorms are expected this evening\nfrom 5 pm to 10 pm. Rainfall amounts of 0.50 to 1.00 are\npossible, with localized higher amounts in thunderstorms. Given\nthe exceedingly saturated soil, it will take minimal\nprecipitation to cause additional runoff and flooding issues.\n- http://www.weather.gov/safety/flood",
+                "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop and expand.",
+                "response": "Prepare",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FFAGRB"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS63 KGRB 151930"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WATCH IN EFFECT THROUGH THURSDAY MORNING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KGRB.FA.A.0003.260415T1930Z-260416T1200Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-16T07:00:00-05:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "FFA"
+                    ],
+                    "NationalWeatherService": [
+                        "FAA"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
+                "areaDesc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Door; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County",
+                "geocode": {
+                    "SAME": [
+                        "055125",
+                        "055085",
+                        "055041",
+                        "055037",
+                        "055075",
+                        "055069",
+                        "055067",
+                        "055078",
+                        "055083",
+                        "055029",
+                        "055073",
+                        "055115",
+                        "055141",
+                        "055097",
+                        "055135",
+                        "055087",
+                        "055009",
+                        "055061",
+                        "055137",
+                        "055139",
+                        "055015",
+                        "055071"
+                    ],
+                    "UGC": [
+                        "WIZ005",
+                        "WIZ010",
+                        "WIZ011",
+                        "WIZ012",
+                        "WIZ013",
+                        "WIZ018",
+                        "WIZ019",
+                        "WIZ020",
+                        "WIZ021",
+                        "WIZ022",
+                        "WIZ030",
+                        "WIZ031",
+                        "WIZ035",
+                        "WIZ036",
+                        "WIZ037",
+                        "WIZ038",
+                        "WIZ039",
+                        "WIZ040",
+                        "WIZ045",
+                        "WIZ048",
+                        "WIZ049",
+                        "WIZ050",
+                        "WIZ073",
+                        "WIZ074"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/WIZ005",
+                    "https://api.weather.gov/zones/forecast/WIZ010",
+                    "https://api.weather.gov/zones/forecast/WIZ011",
+                    "https://api.weather.gov/zones/forecast/WIZ012",
+                    "https://api.weather.gov/zones/forecast/WIZ013",
+                    "https://api.weather.gov/zones/forecast/WIZ018",
+                    "https://api.weather.gov/zones/forecast/WIZ019",
+                    "https://api.weather.gov/zones/forecast/WIZ020",
+                    "https://api.weather.gov/zones/forecast/WIZ021",
+                    "https://api.weather.gov/zones/forecast/WIZ022",
+                    "https://api.weather.gov/zones/forecast/WIZ030",
+                    "https://api.weather.gov/zones/forecast/WIZ031",
+                    "https://api.weather.gov/zones/forecast/WIZ035",
+                    "https://api.weather.gov/zones/forecast/WIZ036",
+                    "https://api.weather.gov/zones/forecast/WIZ037",
+                    "https://api.weather.gov/zones/forecast/WIZ038",
+                    "https://api.weather.gov/zones/forecast/WIZ039",
+                    "https://api.weather.gov/zones/forecast/WIZ040",
+                    "https://api.weather.gov/zones/forecast/WIZ045",
+                    "https://api.weather.gov/zones/forecast/WIZ048",
+                    "https://api.weather.gov/zones/forecast/WIZ049",
+                    "https://api.weather.gov/zones/forecast/WIZ050",
+                    "https://api.weather.gov/zones/forecast/WIZ073",
+                    "https://api.weather.gov/zones/forecast/WIZ074"
+                ],
+                "references": [],
+                "sent": "2026-04-15T14:19:00-05:00",
+                "effective": "2026-04-15T14:19:00-05:00",
+                "onset": "2026-04-15T23:00:00-05:00",
+                "expires": "2026-04-15T22:30:00-05:00",
+                "ends": "2026-04-16T10:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Dense Fog Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Green Bay WI",
+                "headline": "Dense Fog Advisory issued April 15 at 2:19PM CDT until April 16 at 10:00AM CDT by NWS Green Bay WI",
+                "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, east central, north central and\nnortheast Wisconsin.\n\n* WHEN...From 11 PM this evening to 10 AM CDT Thursday.\n\n* IMPACTS...Low visibility could make driving conditions\nhazardous.",
+                "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "NPWGRB"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS73 KGRB 151919"
+                    ],
+                    "NWSheadline": [
+                        "DENSE FOG ADVISORY IN EFFECT FROM 11 PM THIS EVENING TO 10 AM CDT THURSDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KGRB.FG.Y.0005.260416T0400Z-260416T1500Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-16T10:00:00-05:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "FGY"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
+                "areaDesc": "Waupaca, WI",
+                "geocode": {
+                    "SAME": [
+                        "055135"
+                    ],
+                    "UGC": [
+                        "WIC135"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/WIC135"
+                ],
+                "references": [],
+                "sent": "2026-04-15T14:01:00-05:00",
+                "effective": "2026-04-15T14:01:00-05:00",
+                "onset": "2026-04-15T14:01:00-05:00",
+                "expires": "2026-04-16T14:15:00-05:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Unknown",
+                "certainty": "Unknown",
+                "urgency": "Unknown",
+                "event": "Evacuation - Immediate",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Green Bay WI",
+                "headline": "Evacuation - Immediate issued April 15 at 2:01PM CDT by NWS Green Bay WI",
+                "description": "EVIGRB\n\nThe following message is transmitted at the request of the\nWaupaca County Emergency Management.\n\nThe area of New London and to approximately 8 miles southwest\nalong the Wolf River is being evacuated due to dangerous flood\nwaters. If you are living in the impacted area, and choose to\nremain in place, your safety cannot be guaranteed- YOU SHOULD\nEVACUATE IMMEDIATELY TO ENSURE YOUR SAFETY!\n\nPublic emergency shelter is located at:\nWashington Center Gym\n500 W. Washington St.\nNew London, WI 54961\n\nUpdates regarding the status of the emergency evacuation will be\naccessible by dialing 211, viewing the City of New London Facebook\nPage or Waupaca County Sheriff's Office Facebook Page.\n\nTake phone chargers, medications, and pets.",
+                "instruction": null,
+                "response": "Monitor",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "EVIGRB"
+                    ],
+                    "WMOidentifier": [
+                        "WOUS43 KGRB 151901"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "CIV"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "EVI"
+                    ],
+                    "NationalWeatherService": [
+                        "EVI"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -88.78,
+                            44.42
+                        ],
+                        [
+                            -88.83,
+                            44.37
+                        ],
+                        [
+                            -88.96,
+                            44.42
+                        ],
+                        [
+                            -89.02,
+                            44.59
+                        ],
+                        [
+                            -88.89,
+                            44.59
+                        ],
+                        [
+                            -88.83,
+                            44.44
+                        ],
+                        [
+                            -88.78,
+                            44.42
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
+                "areaDesc": "Waupaca, WI",
+                "geocode": {
+                    "SAME": [
+                        "055135"
+                    ],
+                    "UGC": [
+                        "WIC135"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/WIC135"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acac05f76ba8caaed0c990de29a7c4df648301ed.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.acac05f76ba8caaed0c990de29a7c4df648301ed.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-14T21:25:00-05:00"
+                    }
+                ],
+                "sent": "2026-04-15T12:12:00-05:00",
+                "effective": "2026-04-15T12:12:00-05:00",
+                "onset": "2026-04-15T12:12:00-05:00",
+                "expires": "2026-04-16T03:15:00-05:00",
+                "ends": "2026-04-19T20:30:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Green Bay WI",
+                "headline": "Flood Warning issued April 15 at 12:12PM CDT until April 19 at 8:30PM CDT by NWS Green Bay WI",
+                "description": "...The Flood Warning is extended for the following rivers in\nWisconsin...\n\nLittle Wolf River at Royalton affecting Waupaca County.\n\nFor the Little Wolf River...including Royalton...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Little Wolf River at Royalton.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 7.0 feet, Water touches the base of the river gauge\nstation in Royalton. The riverbanks in the area are steep-sided and\nmost homes and roads are situated well above flood stage. Up to 2\nfeet of flood waters may be surrounding structures downstream\nbetween Royalton and New London.\n\n* ADDITIONAL DETAILS...\n- At 11:15 AM CDT Wednesday the stage was 7.1 feet.\n- Bankfull stage is 4.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours ending\nat 11:15 AM CDT Wednesday was 7.1 feet.\n- Forecast...The river is expected to rise to a crest of 7.5 feet\ntomorrow morning. It will then fall below flood stage early\nSunday morning.\n- Flood stage is 5.0 feet.\n- Flood History...This crest compares to a previous crest of 7.6\nfeet on 06/07/1914.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued late tonight by 315 AM CDT.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSGRB"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KGRB 151712"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KGRB.FL.W.0024.000000T0000Z-260420T0130Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-19T20:30:00-05:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf0c14b3e986ceb9f9819b1e9a1faba92ddb1c6.001.1,2026-04-14T12:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.549b43b7c06ec1f52f635d723da0f4d22a77a437.001.1,2026-04-13T21:30:00-05:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "FLS"
+                    ],
+                    "NationalWeatherService": [
+                        "FLW"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for 44.52 N, 88.95 W",
+    "updated": "2026-04-15T19:30:53+00:00"
 }
