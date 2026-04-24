@@ -10,410 +10,238 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.0aa0760f19e9eb6a18790f00fd525d7d98ed06c9.001.1",
-                "areaDesc": "Shawano; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Oconto County",
-                "geocode": {
-                    "SAME": [
-                        "055115",
-                        "055135",
-                        "055087",
-                        "055009",
-                        "055061",
-                        "055137",
-                        "055139",
-                        "055015",
-                        "055071",
-                        "055083"
-                    ],
-                    "UGC": [
-                        "WIZ031",
-                        "WIZ037",
-                        "WIZ038",
-                        "WIZ039",
-                        "WIZ040",
-                        "WIZ045",
-                        "WIZ048",
-                        "WIZ049",
-                        "WIZ050",
-                        "WIZ074"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/forecast/WIZ031",
-                    "https://api.weather.gov/zones/forecast/WIZ037",
-                    "https://api.weather.gov/zones/forecast/WIZ038",
-                    "https://api.weather.gov/zones/forecast/WIZ039",
-                    "https://api.weather.gov/zones/forecast/WIZ040",
-                    "https://api.weather.gov/zones/forecast/WIZ045",
-                    "https://api.weather.gov/zones/forecast/WIZ048",
-                    "https://api.weather.gov/zones/forecast/WIZ049",
-                    "https://api.weather.gov/zones/forecast/WIZ050",
-                    "https://api.weather.gov/zones/forecast/WIZ074"
-                ],
-                "references": [],
-                "sent": "2026-04-15T14:30:00-05:00",
-                "effective": "2026-04-15T14:30:00-05:00",
-                "onset": "2026-04-15T14:30:00-05:00",
-                "expires": "2026-04-15T23:00:00-05:00",
-                "ends": "2026-04-16T07:00:00-05:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Severe",
-                "certainty": "Possible",
-                "urgency": "Future",
-                "event": "Flood Watch",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Green Bay WI",
-                "headline": "Flood Watch issued April 15 at 2:30PM CDT until April 16 at 7:00AM CDT by NWS Green Bay WI",
-                "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of central, east central, and northeast Wisconsin,\nincluding the following areas, in central Wisconsin, Waushara. In\neast central Wisconsin, Calumet, Manitowoc and Winnebago. In\nnortheast Wisconsin, Brown, Kewaunee, Outagamie, Shawano, Southern\nOconto County and Waupaca.\n\n* WHEN...Through Thursday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nArea creeks and streams are already running very high and could\nflood with more rain.\n\n* ADDITIONAL DETAILS...\n- Additional showers and thunderstorms are expected this evening\nfrom 5 pm to 10 pm. Rainfall amounts of 0.50 to 1.00 are\npossible, with localized higher amounts in thunderstorms. Given\nthe exceedingly saturated soil, it will take minimal\nprecipitation to cause additional runoff and flooding issues.\n- http://www.weather.gov/safety/flood",
-                "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop and expand.",
-                "response": "Prepare",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "FFAGRB"
-                    ],
-                    "WMOidentifier": [
-                        "WGUS63 KGRB 151930"
-                    ],
-                    "NWSheadline": [
-                        "FLOOD WATCH IN EFFECT THROUGH THURSDAY MORNING"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.NEW.KGRB.FA.A.0003.260415T1930Z-260416T1200Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-04-16T07:00:00-05:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "FFA"
-                    ],
-                    "NationalWeatherService": [
-                        "FAA"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.85014933b77a3c30bbb6642a764d840520cc7661.001.1",
-                "areaDesc": "Vilas; Oneida; Forest; Florence; Northern Marinette County; Lincoln; Langlade; Menominee; Northern Oconto County; Door; Marathon; Shawano; Wood; Portage; Waupaca; Outagamie; Brown; Kewaunee; Waushara; Winnebago; Calumet; Manitowoc; Southern Marinette County; Southern Oconto County",
-                "geocode": {
-                    "SAME": [
-                        "055125",
-                        "055085",
-                        "055041",
-                        "055037",
-                        "055075",
-                        "055069",
-                        "055067",
-                        "055078",
-                        "055083",
-                        "055029",
-                        "055073",
-                        "055115",
-                        "055141",
-                        "055097",
-                        "055135",
-                        "055087",
-                        "055009",
-                        "055061",
-                        "055137",
-                        "055139",
-                        "055015",
-                        "055071"
-                    ],
-                    "UGC": [
-                        "WIZ005",
-                        "WIZ010",
-                        "WIZ011",
-                        "WIZ012",
-                        "WIZ013",
-                        "WIZ018",
-                        "WIZ019",
-                        "WIZ020",
-                        "WIZ021",
-                        "WIZ022",
-                        "WIZ030",
-                        "WIZ031",
-                        "WIZ035",
-                        "WIZ036",
-                        "WIZ037",
-                        "WIZ038",
-                        "WIZ039",
-                        "WIZ040",
-                        "WIZ045",
-                        "WIZ048",
-                        "WIZ049",
-                        "WIZ050",
-                        "WIZ073",
-                        "WIZ074"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/forecast/WIZ005",
-                    "https://api.weather.gov/zones/forecast/WIZ010",
-                    "https://api.weather.gov/zones/forecast/WIZ011",
-                    "https://api.weather.gov/zones/forecast/WIZ012",
-                    "https://api.weather.gov/zones/forecast/WIZ013",
-                    "https://api.weather.gov/zones/forecast/WIZ018",
-                    "https://api.weather.gov/zones/forecast/WIZ019",
-                    "https://api.weather.gov/zones/forecast/WIZ020",
-                    "https://api.weather.gov/zones/forecast/WIZ021",
-                    "https://api.weather.gov/zones/forecast/WIZ022",
-                    "https://api.weather.gov/zones/forecast/WIZ030",
-                    "https://api.weather.gov/zones/forecast/WIZ031",
-                    "https://api.weather.gov/zones/forecast/WIZ035",
-                    "https://api.weather.gov/zones/forecast/WIZ036",
-                    "https://api.weather.gov/zones/forecast/WIZ037",
-                    "https://api.weather.gov/zones/forecast/WIZ038",
-                    "https://api.weather.gov/zones/forecast/WIZ039",
-                    "https://api.weather.gov/zones/forecast/WIZ040",
-                    "https://api.weather.gov/zones/forecast/WIZ045",
-                    "https://api.weather.gov/zones/forecast/WIZ048",
-                    "https://api.weather.gov/zones/forecast/WIZ049",
-                    "https://api.weather.gov/zones/forecast/WIZ050",
-                    "https://api.weather.gov/zones/forecast/WIZ073",
-                    "https://api.weather.gov/zones/forecast/WIZ074"
-                ],
-                "references": [],
-                "sent": "2026-04-15T14:19:00-05:00",
-                "effective": "2026-04-15T14:19:00-05:00",
-                "onset": "2026-04-15T23:00:00-05:00",
-                "expires": "2026-04-15T22:30:00-05:00",
-                "ends": "2026-04-16T10:00:00-05:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Moderate",
-                "certainty": "Likely",
-                "urgency": "Expected",
-                "event": "Dense Fog Advisory",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Green Bay WI",
-                "headline": "Dense Fog Advisory issued April 15 at 2:19PM CDT until April 16 at 10:00AM CDT by NWS Green Bay WI",
-                "description": "* WHAT...Visibility one quarter mile or less in dense fog.\n\n* WHERE...Portions of central, east central, north central and\nnortheast Wisconsin.\n\n* WHEN...From 11 PM this evening to 10 AM CDT Thursday.\n\n* IMPACTS...Low visibility could make driving conditions\nhazardous.",
-                "instruction": "If driving, slow down, use your headlights, and leave plenty of\ndistance ahead of you.",
-                "response": "Execute",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "NPWGRB"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS73 KGRB 151919"
-                    ],
-                    "NWSheadline": [
-                        "DENSE FOG ADVISORY IN EFFECT FROM 11 PM THIS EVENING TO 10 AM CDT THURSDAY"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "VTEC": [
-                        "/O.NEW.KGRB.FG.Y.0005.260416T0400Z-260416T1500Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-04-16T10:00:00-05:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "NWS"
-                    ],
-                    "NationalWeatherService": [
-                        "FGY"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.c924280b91ffa31a3b068e19d125f651027f9412.001.1",
-                "areaDesc": "Waupaca, WI",
-                "geocode": {
-                    "SAME": [
-                        "055135"
-                    ],
-                    "UGC": [
-                        "WIC135"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/WIC135"
-                ],
-                "references": [],
-                "sent": "2026-04-15T14:01:00-05:00",
-                "effective": "2026-04-15T14:01:00-05:00",
-                "onset": "2026-04-15T14:01:00-05:00",
-                "expires": "2026-04-16T14:15:00-05:00",
-                "ends": null,
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Unknown",
-                "certainty": "Unknown",
-                "urgency": "Unknown",
-                "event": "Evacuation - Immediate",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Green Bay WI",
-                "headline": "Evacuation - Immediate issued April 15 at 2:01PM CDT by NWS Green Bay WI",
-                "description": "EVIGRB\n\nThe following message is transmitted at the request of the\nWaupaca County Emergency Management.\n\nThe area of New London and to approximately 8 miles southwest\nalong the Wolf River is being evacuated due to dangerous flood\nwaters. If you are living in the impacted area, and choose to\nremain in place, your safety cannot be guaranteed- YOU SHOULD\nEVACUATE IMMEDIATELY TO ENSURE YOUR SAFETY!\n\nPublic emergency shelter is located at:\nWashington Center Gym\n500 W. Washington St.\nNew London, WI 54961\n\nUpdates regarding the status of the emergency evacuation will be\naccessible by dialing 211, viewing the City of New London Facebook\nPage or Waupaca County Sheriff's Office Facebook Page.\n\nTake phone chargers, medications, and pets.",
-                "instruction": null,
-                "response": "Monitor",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "EVIGRB"
-                    ],
-                    "WMOidentifier": [
-                        "WOUS43 KGRB 151901"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "CIV"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "EVI"
-                    ],
-                    "NationalWeatherService": [
-                        "EVI"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -88.78,
-                            44.42
+                            -97.89,
+                            36.3
                         ],
                         [
-                            -88.83,
-                            44.37
+                            -97.93,
+                            36.38
                         ],
                         [
-                            -88.96,
-                            44.42
+                            -97.64,
+                            36.54
                         ],
                         [
-                            -89.02,
-                            44.59
+                            -97.57,
+                            36.36
                         ],
                         [
-                            -88.89,
-                            44.59
-                        ],
-                        [
-                            -88.83,
-                            44.44
-                        ],
-                        [
-                            -88.78,
-                            44.42
+                            -97.89,
+                            36.3
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.d933809620b04eeb70db67aa191067d4bd7c9862.001.1",
-                "areaDesc": "Waupaca, WI",
+                "id": "urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
+                "areaDesc": "Garfield, OK",
                 "geocode": {
                     "SAME": [
-                        "055135"
+                        "040047"
                     ],
                     "UGC": [
-                        "WIC135"
+                        "OKC047"
                     ]
                 },
                 "affectedZones": [
-                    "https://api.weather.gov/zones/county/WIC135"
+                    "https://api.weather.gov/zones/county/OKC047"
                 ],
                 "references": [
                     {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acac05f76ba8caaed0c990de29a7c4df648301ed.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.acac05f76ba8caaed0c990de29a7c4df648301ed.001.1",
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bca180e1657b8f00268c3ad4fe01b64aef43b7da.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.bca180e1657b8f00268c3ad4fe01b64aef43b7da.001.1",
                         "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-04-14T21:25:00-05:00"
+                        "sent": "2026-04-23T19:59:00-05:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8554a8994bb26101f7c67b9459a22d40c91f0ad2.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.8554a8994bb26101f7c67b9459a22d40c91f0ad2.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-23T20:13:00-05:00"
                     }
                 ],
-                "sent": "2026-04-15T12:12:00-05:00",
-                "effective": "2026-04-15T12:12:00-05:00",
-                "onset": "2026-04-15T12:12:00-05:00",
-                "expires": "2026-04-16T03:15:00-05:00",
-                "ends": "2026-04-19T20:30:00-05:00",
+                "sent": "2026-04-23T20:22:00-05:00",
+                "effective": "2026-04-23T20:22:00-05:00",
+                "onset": "2026-04-23T20:22:00-05:00",
+                "expires": "2026-04-23T20:45:00-05:00",
+                "ends": "2026-04-23T20:45:00-05:00",
                 "status": "Actual",
                 "messageType": "Update",
+                "category": "Met",
+                "severity": "Extreme",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Tornado Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Norman OK",
+                "headline": "Tornado Warning issued April 23 at 8:22PM CDT until April 23 at 8:45PM CDT by NWS Norman OK",
+                "description": "...A TORNADO WARNING REMAINS IN EFFECT UNTIL 845 PM CDT FOR CENTRAL\nGARFIELD COUNTY...\n\nAt 821 PM CDT, a confirmed large and destructive tornado was located\nnear Vance Air Force Base, moving east at 20 mph.\n\nTORNADO EMERGENCY FOR SOUTHEAST ENID! This is a PARTICULARLY\nDANGEROUS SITUATION. TAKE COVER NOW!\n\nHAZARD...Deadly tornado.\n\nSOURCE...Broadcast media confirmed tornado.\n\nIMPACT...You are in a life-threatening situation. Flying debris may\nbe deadly to those caught without shelter. Mobile homes\nwill be destroyed. Considerable damage to homes,\nbusinesses, and vehicles is likely and complete destruction\nis possible.\n\nLocations impacted include...\nEnid, Waukomis, Breckenridge, Fairmont, and Vance Air Force Base.",
+                "instruction": "To repeat, an extremely dangerous and potentially deadly tornado is\non the ground. To protect your life, TAKE COVER NOW! Move to an\ninterior room on the lowest floor of a sturdy building. Avoid\nwindows. If in a mobile home, a vehicle or outdoors, move to the\nclosest substantial shelter and protect yourself from flying debris.",
+                "response": "Shelter",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SVSOUN"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS54 KOUN 240122"
+                    ],
+                    "NWSheadline": [
+                        "TORNADO EMERGENCY FOR SOUTHEAST ENID"
+                    ],
+                    "eventMotionDescription": [
+                        "2026-04-24T01:21:00-00:00...storm...254DEG...19KT...36.34,-97.86"
+                    ],
+                    "maxHailSize": [
+                        "1.75"
+                    ],
+                    "tornadoDetection": [
+                        "OBSERVED"
+                    ],
+                    "tornadoDamageThreat": [
+                        "CATASTROPHIC"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.CON.KOUN.TO.W.0036.000000T0000Z-260424T0145Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-23T20:45:00-05:00"
+                    ],
+                    "WEAHandling": [
+                        "Imminent Threat"
+                    ],
+                    "CMAMtext": [
+                        "NWS: TORNADO EMERGENCY til 8:45 PM CDT. Tornado spotted in this area. Take shelter now!"
+                    ],
+                    "CMAMlongtext": [
+                        "National Weather Service: TORNADO EMERGENCY until 8:45 PM CDT. Tornado spotted in this area. This is a life-threatening situation. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or in a vehicle move to the closest substantial shelter and protect yourself from flying debris."
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "TOR"
+                    ],
+                    "NationalWeatherService": [
+                        "TOW"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -97.75,
+                            36.59
+                        ],
+                        [
+                            -97.58,
+                            36.4
+                        ],
+                        [
+                            -97.94,
+                            36.25
+                        ],
+                        [
+                            -98.11,
+                            36.25
+                        ],
+                        [
+                            -98.11,
+                            36.37
+                        ],
+                        [
+                            -97.81,
+                            36.6
+                        ],
+                        [
+                            -97.75,
+                            36.59
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
+                "areaDesc": "Garfield, OK",
+                "geocode": {
+                    "SAME": [
+                        "040047"
+                    ],
+                    "UGC": [
+                        "OKC047"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/OKC047"
+                ],
+                "references": [],
+                "sent": "2026-04-23T19:40:00-05:00",
+                "effective": "2026-04-23T19:40:00-05:00",
+                "onset": "2026-04-23T19:40:00-05:00",
+                "expires": "2026-04-23T20:30:00-05:00",
+                "ends": "2026-04-23T20:30:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
                 "category": "Met",
                 "severity": "Severe",
                 "certainty": "Observed",
                 "urgency": "Immediate",
-                "event": "Flood Warning",
+                "event": "Severe Thunderstorm Warning",
                 "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Green Bay WI",
-                "headline": "Flood Warning issued April 15 at 12:12PM CDT until April 19 at 8:30PM CDT by NWS Green Bay WI",
-                "description": "...The Flood Warning is extended for the following rivers in\nWisconsin...\n\nLittle Wolf River at Royalton affecting Waupaca County.\n\nFor the Little Wolf River...including Royalton...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Little Wolf River at Royalton.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 7.0 feet, Water touches the base of the river gauge\nstation in Royalton. The riverbanks in the area are steep-sided and\nmost homes and roads are situated well above flood stage. Up to 2\nfeet of flood waters may be surrounding structures downstream\nbetween Royalton and New London.\n\n* ADDITIONAL DETAILS...\n- At 11:15 AM CDT Wednesday the stage was 7.1 feet.\n- Bankfull stage is 4.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours ending\nat 11:15 AM CDT Wednesday was 7.1 feet.\n- Forecast...The river is expected to rise to a crest of 7.5 feet\ntomorrow morning. It will then fall below flood stage early\nSunday morning.\n- Flood stage is 5.0 feet.\n- Flood History...This crest compares to a previous crest of 7.6\nfeet on 06/07/1914.\n- http://www.weather.gov/safety/flood",
-                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued late tonight by 315 AM CDT.",
-                "response": "Avoid",
+                "senderName": "NWS Norman OK",
+                "headline": "Severe Thunderstorm Warning issued April 23 at 7:40PM CDT until April 23 at 8:30PM CDT by NWS Norman OK",
+                "description": "SVROUN\n\nThe National Weather Service in Norman has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Garfield County in northern Oklahoma...\n\n* Until 830 PM CDT.\n\n* At 740 PM CDT, a severe thunderstorm was located near Drummond,\nmoving northeast at 25 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nEnid, Waukomis, Lahoma, Drummond, Kremlin, Breckenridge, Fairmont,\nVance Air Force Base, and North Enid.",
+                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nA Tornado Watch remains in effect for the warned area.",
+                "response": "Shelter",
+                "note": null,
                 "parameters": {
                     "AWIPSidentifier": [
-                        "FLSGRB"
+                        "SVROUN"
                     ],
                     "WMOidentifier": [
-                        "WGUS83 KGRB 151712"
+                        "WUUS54 KOUN 240040"
                     ],
-                    "NWSheadline": [
-                        "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY EVENING"
+                    "eventMotionDescription": [
+                        "2026-04-24T00:40:00-00:00...storm...234DEG...20KT...36.32,-98.02"
+                    ],
+                    "windThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxWindGust": [
+                        "60 MPH"
+                    ],
+                    "hailThreat": [
+                        "RADAR INDICATED"
+                    ],
+                    "maxHailSize": [
+                        "1.50"
                     ],
                     "BLOCKCHANNEL": [
                         "EAS",
@@ -424,13 +252,10 @@
                         "WXR"
                     ],
                     "VTEC": [
-                        "/O.EXT.KGRB.FL.W.0024.000000T0000Z-260420T0130Z/"
+                        "/O.NEW.KOUN.SV.W.0250.260424T0040Z-260424T0130Z/"
                     ],
                     "eventEndingTime": [
-                        "2026-04-19T20:30:00-05:00"
-                    ],
-                    "expiredReferences": [
-                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ecf0c14b3e986ceb9f9819b1e9a1faba92ddb1c6.001.1,2026-04-14T12:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.549b43b7c06ec1f52f635d723da0f4d22a77a437.001.1,2026-04-13T21:30:00-05:00"
+                        "2026-04-23T20:30:00-05:00"
                     ]
                 },
                 "scope": "Public",
@@ -439,15 +264,139 @@
                 "web": "http://www.weather.gov",
                 "eventCode": {
                     "SAME": [
-                        "FLS"
+                        "SVR"
                     ],
                     "NationalWeatherService": [
-                        "FLW"
+                        "SVW"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
+                "areaDesc": "Alfalfa, OK; Blaine, OK; Caddo, OK; Canadian, OK; Cleveland, OK; Comanche, OK; Garfield, OK; Grady, OK; Grant, OK; Kay, OK; Kingfisher, OK; Logan, OK; McClain, OK; Major, OK; Noble, OK; Oklahoma, OK; Payne, OK",
+                "geocode": {
+                    "SAME": [
+                        "040003",
+                        "040011",
+                        "040015",
+                        "040017",
+                        "040027",
+                        "040031",
+                        "040047",
+                        "040051",
+                        "040053",
+                        "040071",
+                        "040073",
+                        "040083",
+                        "040087",
+                        "040093",
+                        "040103",
+                        "040109",
+                        "040119"
+                    ],
+                    "UGC": [
+                        "OKC003",
+                        "OKC011",
+                        "OKC015",
+                        "OKC017",
+                        "OKC027",
+                        "OKC031",
+                        "OKC047",
+                        "OKC051",
+                        "OKC053",
+                        "OKC071",
+                        "OKC073",
+                        "OKC083",
+                        "OKC087",
+                        "OKC093",
+                        "OKC103",
+                        "OKC109",
+                        "OKC119"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/OKC003",
+                    "https://api.weather.gov/zones/county/OKC011",
+                    "https://api.weather.gov/zones/county/OKC015",
+                    "https://api.weather.gov/zones/county/OKC017",
+                    "https://api.weather.gov/zones/county/OKC027",
+                    "https://api.weather.gov/zones/county/OKC031",
+                    "https://api.weather.gov/zones/county/OKC047",
+                    "https://api.weather.gov/zones/county/OKC051",
+                    "https://api.weather.gov/zones/county/OKC053",
+                    "https://api.weather.gov/zones/county/OKC071",
+                    "https://api.weather.gov/zones/county/OKC073",
+                    "https://api.weather.gov/zones/county/OKC083",
+                    "https://api.weather.gov/zones/county/OKC087",
+                    "https://api.weather.gov/zones/county/OKC093",
+                    "https://api.weather.gov/zones/county/OKC103",
+                    "https://api.weather.gov/zones/county/OKC109",
+                    "https://api.weather.gov/zones/county/OKC119"
+                ],
+                "references": [],
+                "sent": "2026-04-23T17:12:00-05:00",
+                "effective": "2026-04-23T17:12:00-05:00",
+                "onset": "2026-04-23T17:12:00-05:00",
+                "expires": "2026-04-23T23:00:00-05:00",
+                "ends": "2026-04-23T23:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Extreme",
+                "certainty": "Possible",
+                "urgency": "Future",
+                "event": "Tornado Watch",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Norman OK",
+                "headline": "Tornado Watch issued April 23 at 5:12PM CDT until April 23 at 11:00PM CDT by NWS Norman OK",
+                "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 137 IN\nEFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 17 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              CLEVELAND             GRADY\nKINGFISHER            LOGAN                 MCCLAIN\nOKLAHOMA              PAYNE\n\nIN NORTHERN OKLAHOMA\n\nGARFIELD              GRANT                 KAY\nNOBLE\n\nIN NORTHWEST OKLAHOMA\n\nALFALFA               BLAINE                MAJOR\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE\n\nTHIS INCLUDES THE CITIES OF ANADARKO, BLACKWELL, BLANCHARD,\nCARMEN, CHEROKEE, CHICKASHA, CONCHO, EL RENO, ENID, FAIRVIEW,\nGEARY, GUTHRIE, HELENA, HENNESSEY, HINTON, KINGFISHER, LAMONT,\nLAWTON, MEDFORD, MOORE, MUSTANG, NEWCASTLE, NORMAN, OKARCHE,\nOKEENE, OKLAHOMA CITY, PERRY, PONCA CITY, POND CREEK, PURCELL,\nSTILLWATER, TUTTLE, WAKITA, WATONGA, AND YUKON.",
+                "instruction": null,
+                "response": "Monitor",
+                "note": null,
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "WCNOUN"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS64 KOUN 232212"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.NEW.KOUN.TO.A.0137.260423T2212Z-260424T0400Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-23T23:00:00-05:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "TOA"
+                    ],
+                    "NationalWeatherService": [
+                        "TOA"
                     ]
                 }
             }
         }
     ],
-    "title": "Current watches, warnings, and advisories for 44.52 N, 88.95 W",
-    "updated": "2026-04-15T19:30:53+00:00"
+    "title": "Current watches, warnings, and advisories for 36.43 N, 97.79 W",
+    "updated": "2026-04-24T01:22:58+00:00"
 }
