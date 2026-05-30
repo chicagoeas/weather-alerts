@@ -10,262 +10,69 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdd2d54bb270709a5bc7438ccfce9ca756f42c61.001.1",
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.2",
             "type": "Feature",
             "geometry": null,
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdd2d54bb270709a5bc7438ccfce9ca756f42c61.001.1",
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.2",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.fdd2d54bb270709a5bc7438ccfce9ca756f42c61.001.1",
-                "areaDesc": "Phillips, MT; Roosevelt, MT; Valley, MT",
+                "id": "urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.2",
+                "areaDesc": "Tinian; Saipan",
                 "geocode": {
                     "SAME": [
-                        "030071",
-                        "030085",
-                        "030105"
+                        "069120",
+                        "069110"
                     ],
                     "UGC": [
-                        "MTC071",
-                        "MTC085",
-                        "MTC105"
+                        "MPZ002",
+                        "MPZ003"
                     ]
                 },
                 "affectedZones": [
-                    "https://api.weather.gov/zones/county/MTC071",
-                    "https://api.weather.gov/zones/county/MTC085",
-                    "https://api.weather.gov/zones/county/MTC105"
-                ],
-                "references": [],
-                "sent": "2026-05-14T11:15:00-06:00",
-                "effective": "2026-05-14T11:15:00-06:00",
-                "onset": "2026-05-14T11:15:00-06:00",
-                "expires": "2026-05-14T14:15:00-06:00",
-                "ends": null,
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Unknown",
-                "certainty": "Unknown",
-                "urgency": "Unknown",
-                "event": "Civil Emergency Message",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Glasgow MT",
-                "headline": "Civil Emergency Message issued May 14 at 11:15AM MDT by NWS Glasgow MT",
-                "description": "CEMGGW\n\nThe following message is transmitted at the request of the\nMontana EMERGENCY MANAGEMENT AGENCY.\n\nHighway 2 from near Dodson to Wolf Point is closed until further\nnotice due to Blowing Dust. Only Emergency Travel is allowed.",
-                "instruction": null,
-                "response": "Monitor",
-                "note": "Non-Weather Emergency Message. Not sent to IPAWS.",
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "CEMGGW"
-                    ],
-                    "WMOidentifier": [
-                        "WOUS45 KGGW 141715"
-                    ],
-                    "NWSheadline": [
-                        "HIGHWAY 2 CLOSED FROM DODSON TO WOLF POINT"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "CIV"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "CEM"
-                    ],
-                    "NationalWeatherService": [
-                        "CEM"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5121838e878193261f134e5bb64f5854e9323dde.003.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5121838e878193261f134e5bb64f5854e9323dde.003.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.5121838e878193261f134e5bb64f5854e9323dde.003.1",
-                "areaDesc": "Petroleum; Garfield; Northern Phillips; Southwest Phillips; Northern Valley",
-                "geocode": {
-                    "SAME": [
-                        "030069",
-                        "030033",
-                        "030071",
-                        "030105"
-                    ],
-                    "UGC": [
-                        "MTZ021",
-                        "MTZ022",
-                        "MTZ059",
-                        "MTZ060",
-                        "MTZ061"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/forecast/MTZ021",
-                    "https://api.weather.gov/zones/forecast/MTZ022",
-                    "https://api.weather.gov/zones/forecast/MTZ059",
-                    "https://api.weather.gov/zones/forecast/MTZ060",
-                    "https://api.weather.gov/zones/forecast/MTZ061"
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
                 ],
                 "references": [
                     {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c3c8b66d7dfe661f3b02a32e313ffc915de0bbbf.002.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.c3c8b66d7dfe661f3b02a32e313ffc915de0bbbf.002.1",
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.5",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.5",
                         "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-05-13T23:49:00-06:00"
-                    }
-                ],
-                "sent": "2026-05-14T10:35:00-06:00",
-                "effective": "2026-05-14T10:35:00-06:00",
-                "onset": "2026-05-14T10:35:00-06:00",
-                "expires": "2026-05-14T18:45:00-06:00",
-                "ends": "2026-05-15T00:00:00-06:00",
-                "status": "Actual",
-                "messageType": "Update",
-                "category": "Met",
-                "severity": "Severe",
-                "certainty": "Likely",
-                "urgency": "Expected",
-                "event": "High Wind Warning",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Glasgow MT",
-                "headline": "High Wind Warning issued May 14 at 10:35AM MDT until May 15 at 12:00AM MDT by NWS Glasgow MT",
-                "description": "* WHAT...West winds 35 to 45 mph with gusts up to 70 mph.\n\n* WHERE...Garfield, Northern Phillips, Northern Valley, Petroleum,\nand Southwest Phillips Counties.\n\n* WHEN...Until midnight MDT tonight.\n\n* IMPACTS...Damaging winds could blow down trees and power lines.\nWidespread power outages are possible. Travel could be difficult,\nespecially for high profile vehicles.",
-                "instruction": null,
-                "response": "Prepare",
-                "note": null,
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "NPWGGW"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS75 KGGW 141635"
-                    ],
-                    "NWSheadline": [
-                        "HIGH WIND WARNING REMAINS IN EFFECT UNTIL MIDNIGHT MDT TONIGHT"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.CON.KGGW.HW.W.0013.000000T0000Z-260515T0600Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-05-15T00:00:00-06:00"
-                    ],
-                    "expiredReferences": [
-                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fe69567ea83f575517f5f93f21ea2cce9fc2867f.001.1,2026-05-13T15:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcabb3a847b3219b3d49dd6350495e4e3916d951.001.2,2026-05-12T22:53:00-06:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "HWW"
-                    ],
-                    "NationalWeatherService": [
-                        "HWW"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3195bfeb65d665857374dd99a1f9209c8e209086.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3195bfeb65d665857374dd99a1f9209c8e209086.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.3195bfeb65d665857374dd99a1f9209c8e209086.001.1",
-                "areaDesc": "Fort Peck Reservation and Daniels/Roosevelt/Sheridan Counties; Dawson/McCone/Prairie/Richland/Wibaux Counties; Northern Valley and Northern Phillips Counties; The Little Rockies; The Lower Missouri River Breaks including the Charles M Russell National Wildlife Refuge; Southern Petroleum and Southern Garfield Counties",
-                "geocode": {
-                    "SAME": [
-                        "030019",
-                        "030085",
-                        "030091",
-                        "030105",
-                        "030021",
-                        "030055",
-                        "030079",
-                        "030083",
-                        "030109",
-                        "030071",
-                        "030027",
-                        "030033",
-                        "030069"
-                    ],
-                    "UGC": [
-                        "MTZ120",
-                        "MTZ122",
-                        "MTZ134",
-                        "MTZ135",
-                        "MTZ136",
-                        "MTZ137"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/fire/MTZ120",
-                    "https://api.weather.gov/zones/fire/MTZ122",
-                    "https://api.weather.gov/zones/fire/MTZ134",
-                    "https://api.weather.gov/zones/fire/MTZ135",
-                    "https://api.weather.gov/zones/fire/MTZ136",
-                    "https://api.weather.gov/zones/fire/MTZ137"
-                ],
-                "references": [
+                        "sent": "2026-04-16T13:24:00+10:00"
+                    },
                     {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ff0f7d5c03c94a94435484178a99e8a2510e44bf.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.ff0f7d5c03c94a94435484178a99e8a2510e44bf.001.1",
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.2",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.2",
                         "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-05-13T13:51:00-06:00"
+                        "sent": "2026-04-16T15:50:00+10:00"
                     }
                 ],
-                "sent": "2026-05-14T04:28:00-06:00",
-                "effective": "2026-05-14T04:28:00-06:00",
-                "onset": "2026-05-14T04:28:00-06:00",
-                "expires": "2026-05-14T16:00:00-06:00",
-                "ends": "2026-05-15T21:00:00-06:00",
+                "sent": "2026-04-16T21:56:00+10:00",
+                "effective": "2026-04-16T21:56:00+10:00",
+                "onset": "2026-04-16T21:56:00+10:00",
+                "expires": "2026-04-17T12:00:00+10:00",
+                "ends": "2026-04-17T17:00:00+10:00",
                 "status": "Actual",
                 "messageType": "Update",
                 "category": "Met",
-                "severity": "Severe",
+                "severity": "Moderate",
                 "certainty": "Likely",
                 "urgency": "Expected",
-                "event": "Red Flag Warning",
+                "event": "High Surf Warning",
                 "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Glasgow MT",
-                "headline": "Red Flag Warning issued May 14 at 4:28AM MDT until May 15 at 9:00PM MDT by NWS Glasgow MT",
-                "description": "* AFFECTED AREA...Fire weather zones 120, 122, 134, 135, 136,\nand 137.\n\n* WIND...West 25 to 50 mph with gusts to 65 mph today. West 20 to\n35 mph with gusts to 50 mph tonight and Friday.\n\n* HUMIDITY...As low as 20 percent today and Friday.\n\n* THUNDERSTORMS...None.\n\n* IMPACTS...Any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
-                "instruction": "Please advise the appropriate officials or fire crews in these\nareas of this Red Flag Warning.",
-                "response": "Prepare",
-                "note": null,
+                "senderName": "NWS Tiyan GU",
+                "headline": "High Surf Warning issued April 16 at 9:56PM ChST until April 17 at 5:00PM ChST by NWS Tiyan GU",
+                "description": "* WHAT...For the Coastal Flood Warning, significant coastal flooding\nof 5 to 8 feet. For the High Surf Warning, dangerously large\nbreaking waves of 16 to 20 feet. For the Coastal Flood Advisory,\nminor coastal flooding of 1 to 2 feet expected. For the High Surf\nAdvisory, large breaking waves of 10 to 14 feet expected. For the\nHigh Rip Current Risk, dangerous rip currents.\n\n* WHERE...South, west and north facing reefs and shorelines of\nTinian and Saipan.\n\n* WHEN...For the Coastal Flood Warning, until noon ChST Friday.\nFor the High Surf Warning, until 5 PM ChST Friday. For the\nCoastal Flood Advisory, from noon Friday to 5 PM ChST Saturday.\nFor the High Surf Advisory, from 5 PM Friday to 5 PM ChST\nSaturday. For the High Rip Current Risk, through Saturday\nafternoon.\n\n* IMPACTS...Numerous roads may be closed. Low lying property\nincluding homes, businesses, and some critical infrastructure\nwill be inundated. Some shoreline erosion will occur. Breaking\nwaves can sweep people off jetties and docks, and into dangerous\nseas. Life- threatening swimming conditions and significant beach\nerosion can be expected. Rip currents can sweep even the best\nswimmers away from shore into deeper water.\n\n* ADDITIONAL DETAILS...As TY Sinlaku continues to move away and\nwind driven waves decrease, the primary swell and highest surf\nwill become southwest. Seas will be slow to subside over the next\ncouple of days.",
+                "instruction": "Everyone should remain out of the water due to life-threatening\nsurf conditions. Stay off of jetties, piers, and other waterside\ninfrastructure.\n\nRip currents will be life threatening. If caught in a rip\ncurrent, relax and float. Don't swim against the current. If\nable, swim in a direction following the shoreline. If unable to\nescape, face the shore and call or wave for help.",
+                "response": "Avoid",
                 "parameters": {
                     "AWIPSidentifier": [
-                        "RFWGGW"
+                        "CFWGUM"
                     ],
                     "WMOidentifier": [
-                        "WWUS85 KGGW 141028"
+                        "WHMY40 PGUM 161156"
                     ],
                     "NWSheadline": [
-                        "RED FLAG WARNING REMAINS IN EFFECT UNTIL 9 PM MDT FRIDAY FOR LOW RELATIVE HUMIDITY AND STRONG WINDS FOR ALL FIRE WEATHER ZONES"
+                        "COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL NOON CHST FRIDAY... ...HIGH SURF WARNING REMAINS IN EFFECT UNTIL 5 PM CHST FRIDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM NOON FRIDAY TO 5 PM CHST SATURDAY... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 PM FRIDAY TO 5 PM CHST SATURDAY"
                     ],
                     "BLOCKCHANNEL": [
                         "EAS",
@@ -273,13 +80,13 @@
                         "CMAS"
                     ],
                     "VTEC": [
-                        "/O.CON.KGGW.FW.W.0006.000000T0000Z-260516T0300Z/"
+                        "/O.CON.PGUM.SU.W.0005.000000T0000Z-260417T0700Z/"
                     ],
                     "eventEndingTime": [
-                        "2026-05-15T21:00:00-06:00"
+                        "2026-04-17T17:00:00+10:00"
                     ],
                     "expiredReferences": [
-                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4a07f05fbb901f011f7fd8bbb082e2023cb76aef.001.1,2026-05-13T01:58:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.901db1682e4b9c8157c25dbe6ed66c2adcf71e22.001.2,2026-05-12T12:01:00-06:00"
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58fbdbd318b5ffe1745eb3ed10200448edfd28e3.003.2,2026-04-16T03:49:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8a71aee60b40a361ddccef08b5d9b09e2208c2a3.002.2,2026-04-16T09:54:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d15e249d6994a2d7e0ef55f36a7be386c16ffe99.003.2,2026-04-15T21:43:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0f9aafd891380d82ab40456a7432ac10107249d0.001.2,2026-04-15T10:14:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bead4c3bf4cc3566a8088622baf1ef9cfe91d254.003.2,2026-04-15T15:57:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.86496e4ce4a983c233322f34f775d5bb40aafb22.001.2,2026-04-15T04:34:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.763d222f835bacae1edfc490120874f0ebfefba5.001.2,2026-04-14T22:40:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8c342609a6f36c1904a32e68b59c4014b3ea2a4b.001.2,2026-04-14T16:26:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6ab1ec8d588a425d98e3f05b72cf407694aa4dd.001.2,2026-04-14T04:10:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ed0c3441619097c753f023e1f84cdffd291c312.001.2,2026-04-14T09:47:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7d9f9f3fafb383313aa0cbe7f0ca5861f74cded4.001.2,2026-04-13T22:07:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.13c22522787db24f299d3618a8b34cd4435a784a.001.2,2026-04-13T22:00:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5b7ab49cfb41770c35506f39ae654d2a341059.001.3,2026-04-13T15:54:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8e36f44be82b9fdbe689132a7b50fe11105f6a0e.001.1,2026-04-13T10:58:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.454bdb5373137f31fbc17e41c7f89881c425ff5e.001.1,2026-04-13T04:38:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cb7402ec3764f03db0aac86c39857bec185bcbcf.001.1,2026-04-12T20:54:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28c1e881dd9c417f2f52ba106a67df4255cec342.001.3,2026-04-12T18:08:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2e897426fa12f201ac72f03361655e02b33dd912.001.1,2026-04-12T15:59:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2aa5e6fb6618be3c455f12e2425c09373916a0fd.001.1,2026-04-12T04:36:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9c7ca88a3f05c3e788ba7020ab72cb477bbfeaf1.001.1,2026-04-11T16:54:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b19bc7fbae43252271a7179eb5cf9be875437c54.001.1,2026-04-11T16:33:00+10:00"
                     ]
                 },
                 "scope": "Public",
@@ -291,12 +98,473 @@
                         "NWS"
                     ],
                     "NationalWeatherService": [
-                        "FWW"
+                        "SUW"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.1",
+                "areaDesc": "Tinian; Saipan",
+                "geocode": {
+                    "SAME": [
+                        "069120",
+                        "069110"
+                    ],
+                    "UGC": [
+                        "MPZ002",
+                        "MPZ003"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.4",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.4",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T13:24:00+10:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T15:50:00+10:00"
+                    }
+                ],
+                "sent": "2026-04-16T21:56:00+10:00",
+                "effective": "2026-04-16T21:56:00+10:00",
+                "onset": "2026-04-16T21:56:00+10:00",
+                "expires": "2026-04-17T12:00:00+10:00",
+                "ends": "2026-04-17T12:00:00+10:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Coastal Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tiyan GU",
+                "headline": "Coastal Flood Warning issued April 16 at 9:56PM ChST until April 17 at 12:00PM ChST by NWS Tiyan GU",
+                "description": "* WHAT...For the Coastal Flood Warning, significant coastal flooding\nof 5 to 8 feet. For the High Surf Warning, dangerously large\nbreaking waves of 16 to 20 feet. For the Coastal Flood Advisory,\nminor coastal flooding of 1 to 2 feet expected. For the High Surf\nAdvisory, large breaking waves of 10 to 14 feet expected. For the\nHigh Rip Current Risk, dangerous rip currents.\n\n* WHERE...South, west and north facing reefs and shorelines of\nTinian and Saipan.\n\n* WHEN...For the Coastal Flood Warning, until noon ChST Friday.\nFor the High Surf Warning, until 5 PM ChST Friday. For the\nCoastal Flood Advisory, from noon Friday to 5 PM ChST Saturday.\nFor the High Surf Advisory, from 5 PM Friday to 5 PM ChST\nSaturday. For the High Rip Current Risk, through Saturday\nafternoon.\n\n* IMPACTS...Numerous roads may be closed. Low lying property\nincluding homes, businesses, and some critical infrastructure\nwill be inundated. Some shoreline erosion will occur. Breaking\nwaves can sweep people off jetties and docks, and into dangerous\nseas. Life- threatening swimming conditions and significant beach\nerosion can be expected. Rip currents can sweep even the best\nswimmers away from shore into deeper water.\n\n* ADDITIONAL DETAILS...As TY Sinlaku continues to move away and\nwind driven waves decrease, the primary swell and highest surf\nwill become southwest. Seas will be slow to subside over the next\ncouple of days.",
+                "instruction": "Everyone should remain out of the water due to life-threatening\nsurf conditions. Stay off of jetties, piers, and other waterside\ninfrastructure.\n\nRip currents will be life threatening. If caught in a rip\ncurrent, relax and float. Don't swim against the current. If\nable, swim in a direction following the shoreline. If unable to\nescape, face the shore and call or wave for help.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "CFWGUM"
+                    ],
+                    "WMOidentifier": [
+                        "WHMY40 PGUM 161156"
+                    ],
+                    "NWSheadline": [
+                        "COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL NOON CHST FRIDAY... ...HIGH SURF WARNING REMAINS IN EFFECT UNTIL 5 PM CHST FRIDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM NOON FRIDAY TO 5 PM CHST SATURDAY... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 PM FRIDAY TO 5 PM CHST SATURDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.CON.PGUM.CF.W.0001.000000T0000Z-260417T0200Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-17T12:00:00+10:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58fbdbd318b5ffe1745eb3ed10200448edfd28e3.003.1,2026-04-16T03:49:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8a71aee60b40a361ddccef08b5d9b09e2208c2a3.002.1,2026-04-16T09:54:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d15e249d6994a2d7e0ef55f36a7be386c16ffe99.003.1,2026-04-15T21:43:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0f9aafd891380d82ab40456a7432ac10107249d0.001.1,2026-04-15T10:14:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bead4c3bf4cc3566a8088622baf1ef9cfe91d254.003.1,2026-04-15T15:57:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.86496e4ce4a983c233322f34f775d5bb40aafb22.001.1,2026-04-15T04:34:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.763d222f835bacae1edfc490120874f0ebfefba5.001.1,2026-04-14T22:40:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8c342609a6f36c1904a32e68b59c4014b3ea2a4b.001.1,2026-04-14T16:26:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d6ab1ec8d588a425d98e3f05b72cf407694aa4dd.001.1,2026-04-14T04:10:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4ed0c3441619097c753f023e1f84cdffd291c312.001.1,2026-04-14T09:47:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7d9f9f3fafb383313aa0cbe7f0ca5861f74cded4.001.1,2026-04-13T22:07:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.13c22522787db24f299d3618a8b34cd4435a784a.001.1,2026-04-13T22:00:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5b7ab49cfb41770c35506f39ae654d2a341059.001.2,2026-04-13T15:54:00+10:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "CFW"
+                    ],
+                    "NationalWeatherService": [
+                        "CFW"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.5",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.5",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.5",
+                "areaDesc": "Tinian; Saipan",
+                "geocode": {
+                    "SAME": [
+                        "069120",
+                        "069110"
+                    ],
+                    "UGC": [
+                        "MPZ002",
+                        "MPZ003"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.3",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.3",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T13:24:00+10:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.5",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.5",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T15:50:00+10:00"
+                    }
+                ],
+                "sent": "2026-04-16T21:56:00+10:00",
+                "effective": "2026-04-16T21:56:00+10:00",
+                "onset": "2026-04-16T21:56:00+10:00",
+                "expires": "2026-04-17T12:00:00+10:00",
+                "ends": "2026-04-18T17:00:00+10:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Rip Current Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tiyan GU",
+                "headline": "Rip Current Statement issued April 16 at 9:56PM ChST until April 18 at 5:00PM ChST by NWS Tiyan GU",
+                "description": "* WHAT...For the Coastal Flood Warning, significant coastal flooding\nof 5 to 8 feet. For the High Surf Warning, dangerously large\nbreaking waves of 16 to 20 feet. For the Coastal Flood Advisory,\nminor coastal flooding of 1 to 2 feet expected. For the High Surf\nAdvisory, large breaking waves of 10 to 14 feet expected. For the\nHigh Rip Current Risk, dangerous rip currents.\n\n* WHERE...South, west and north facing reefs and shorelines of\nTinian and Saipan.\n\n* WHEN...For the Coastal Flood Warning, until noon ChST Friday.\nFor the High Surf Warning, until 5 PM ChST Friday. For the\nCoastal Flood Advisory, from noon Friday to 5 PM ChST Saturday.\nFor the High Surf Advisory, from 5 PM Friday to 5 PM ChST\nSaturday. For the High Rip Current Risk, through Saturday\nafternoon.\n\n* IMPACTS...Numerous roads may be closed. Low lying property\nincluding homes, businesses, and some critical infrastructure\nwill be inundated. Some shoreline erosion will occur. Breaking\nwaves can sweep people off jetties and docks, and into dangerous\nseas. Life- threatening swimming conditions and significant beach\nerosion can be expected. Rip currents can sweep even the best\nswimmers away from shore into deeper water.\n\n* ADDITIONAL DETAILS...As TY Sinlaku continues to move away and\nwind driven waves decrease, the primary swell and highest surf\nwill become southwest. Seas will be slow to subside over the next\ncouple of days.",
+                "instruction": "Everyone should remain out of the water due to life-threatening\nsurf conditions. Stay off of jetties, piers, and other waterside\ninfrastructure.\n\nRip currents will be life threatening. If caught in a rip\ncurrent, relax and float. Don't swim against the current. If\nable, swim in a direction following the shoreline. If unable to\nescape, face the shore and call or wave for help.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "CFWGUM"
+                    ],
+                    "WMOidentifier": [
+                        "WHMY40 PGUM 161156"
+                    ],
+                    "NWSheadline": [
+                        "COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL NOON CHST FRIDAY... ...HIGH SURF WARNING REMAINS IN EFFECT UNTIL 5 PM CHST FRIDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM NOON FRIDAY TO 5 PM CHST SATURDAY... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 PM FRIDAY TO 5 PM CHST SATURDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.CON.PGUM.RP.S.0011.000000T0000Z-260418T0700Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-18T17:00:00+10:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "RPS"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.4",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.4",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.4",
+                "areaDesc": "Tinian; Saipan",
+                "geocode": {
+                    "SAME": [
+                        "069120",
+                        "069110"
+                    ],
+                    "UGC": [
+                        "MPZ002",
+                        "MPZ003"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.2",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.2",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T13:24:00+10:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.4",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.4",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T15:50:00+10:00"
+                    }
+                ],
+                "sent": "2026-04-16T21:56:00+10:00",
+                "effective": "2026-04-16T21:56:00+10:00",
+                "onset": "2026-04-17T17:00:00+10:00",
+                "expires": "2026-04-17T12:00:00+10:00",
+                "ends": "2026-04-18T17:00:00+10:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "High Surf Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tiyan GU",
+                "headline": "High Surf Advisory issued April 16 at 9:56PM ChST until April 18 at 5:00PM ChST by NWS Tiyan GU",
+                "description": "* WHAT...For the Coastal Flood Warning, significant coastal flooding\nof 5 to 8 feet. For the High Surf Warning, dangerously large\nbreaking waves of 16 to 20 feet. For the Coastal Flood Advisory,\nminor coastal flooding of 1 to 2 feet expected. For the High Surf\nAdvisory, large breaking waves of 10 to 14 feet expected. For the\nHigh Rip Current Risk, dangerous rip currents.\n\n* WHERE...South, west and north facing reefs and shorelines of\nTinian and Saipan.\n\n* WHEN...For the Coastal Flood Warning, until noon ChST Friday.\nFor the High Surf Warning, until 5 PM ChST Friday. For the\nCoastal Flood Advisory, from noon Friday to 5 PM ChST Saturday.\nFor the High Surf Advisory, from 5 PM Friday to 5 PM ChST\nSaturday. For the High Rip Current Risk, through Saturday\nafternoon.\n\n* IMPACTS...Numerous roads may be closed. Low lying property\nincluding homes, businesses, and some critical infrastructure\nwill be inundated. Some shoreline erosion will occur. Breaking\nwaves can sweep people off jetties and docks, and into dangerous\nseas. Life- threatening swimming conditions and significant beach\nerosion can be expected. Rip currents can sweep even the best\nswimmers away from shore into deeper water.\n\n* ADDITIONAL DETAILS...As TY Sinlaku continues to move away and\nwind driven waves decrease, the primary swell and highest surf\nwill become southwest. Seas will be slow to subside over the next\ncouple of days.",
+                "instruction": "Everyone should remain out of the water due to life-threatening\nsurf conditions. Stay off of jetties, piers, and other waterside\ninfrastructure.\n\nRip currents will be life threatening. If caught in a rip\ncurrent, relax and float. Don't swim against the current. If\nable, swim in a direction following the shoreline. If unable to\nescape, face the shore and call or wave for help.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "CFWGUM"
+                    ],
+                    "WMOidentifier": [
+                        "WHMY40 PGUM 161156"
+                    ],
+                    "NWSheadline": [
+                        "COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL NOON CHST FRIDAY... ...HIGH SURF WARNING REMAINS IN EFFECT UNTIL 5 PM CHST FRIDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM NOON FRIDAY TO 5 PM CHST SATURDAY... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 PM FRIDAY TO 5 PM CHST SATURDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.CON.PGUM.SU.Y.0038.260417T0700Z-260418T0700Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-18T17:00:00+10:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "SUY"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.3",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.3",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.012d2ac7853c2c6f2a33b184364d54b4f77d8419.001.3",
+                "areaDesc": "Tinian; Saipan",
+                "geocode": {
+                    "SAME": [
+                        "069120",
+                        "069110"
+                    ],
+                    "UGC": [
+                        "MPZ002",
+                        "MPZ003"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df74245f88fa3985216e8123b2ee0cc36de9e492.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T13:24:00+10:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.3",
+                        "identifier": "urn:oid:2.49.0.1.840.0.4b64e322ffdd1e8ede7c4336a366b3fee85c9588.002.3",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T15:50:00+10:00"
+                    }
+                ],
+                "sent": "2026-04-16T21:56:00+10:00",
+                "effective": "2026-04-16T21:56:00+10:00",
+                "onset": "2026-04-17T12:00:00+10:00",
+                "expires": "2026-04-17T12:00:00+10:00",
+                "ends": "2026-04-18T17:00:00+10:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Minor",
+                "certainty": "Likely",
+                "urgency": "Expected",
+                "event": "Coastal Flood Advisory",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tiyan GU",
+                "headline": "Coastal Flood Advisory issued April 16 at 9:56PM ChST until April 18 at 5:00PM ChST by NWS Tiyan GU",
+                "description": "* WHAT...For the Coastal Flood Warning, significant coastal flooding\nof 5 to 8 feet. For the High Surf Warning, dangerously large\nbreaking waves of 16 to 20 feet. For the Coastal Flood Advisory,\nminor coastal flooding of 1 to 2 feet expected. For the High Surf\nAdvisory, large breaking waves of 10 to 14 feet expected. For the\nHigh Rip Current Risk, dangerous rip currents.\n\n* WHERE...South, west and north facing reefs and shorelines of\nTinian and Saipan.\n\n* WHEN...For the Coastal Flood Warning, until noon ChST Friday.\nFor the High Surf Warning, until 5 PM ChST Friday. For the\nCoastal Flood Advisory, from noon Friday to 5 PM ChST Saturday.\nFor the High Surf Advisory, from 5 PM Friday to 5 PM ChST\nSaturday. For the High Rip Current Risk, through Saturday\nafternoon.\n\n* IMPACTS...Numerous roads may be closed. Low lying property\nincluding homes, businesses, and some critical infrastructure\nwill be inundated. Some shoreline erosion will occur. Breaking\nwaves can sweep people off jetties and docks, and into dangerous\nseas. Life- threatening swimming conditions and significant beach\nerosion can be expected. Rip currents can sweep even the best\nswimmers away from shore into deeper water.\n\n* ADDITIONAL DETAILS...As TY Sinlaku continues to move away and\nwind driven waves decrease, the primary swell and highest surf\nwill become southwest. Seas will be slow to subside over the next\ncouple of days.",
+                "instruction": "Everyone should remain out of the water due to life-threatening\nsurf conditions. Stay off of jetties, piers, and other waterside\ninfrastructure.\n\nRip currents will be life threatening. If caught in a rip\ncurrent, relax and float. Don't swim against the current. If\nable, swim in a direction following the shoreline. If unable to\nescape, face the shore and call or wave for help.",
+                "response": "Monitor",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "CFWGUM"
+                    ],
+                    "WMOidentifier": [
+                        "WHMY40 PGUM 161156"
+                    ],
+                    "NWSheadline": [
+                        "COASTAL FLOOD WARNING REMAINS IN EFFECT UNTIL NOON CHST FRIDAY... ...HIGH SURF WARNING REMAINS IN EFFECT UNTIL 5 PM CHST FRIDAY... ...HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH SATURDAY AFTERNOON... ...COASTAL FLOOD ADVISORY REMAINS IN EFFECT FROM NOON FRIDAY TO 5 PM CHST SATURDAY... ...HIGH SURF ADVISORY REMAINS IN EFFECT FROM 5 PM FRIDAY TO 5 PM CHST SATURDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "VTEC": [
+                        "/O.CON.PGUM.CF.Y.0002.260417T0200Z-260418T0700Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2026-04-18T17:00:00+10:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "NWS"
+                    ],
+                    "NationalWeatherService": [
+                        "CFY"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eaed7779dc4b17958488e974c6be9a42ce37fb3b.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eaed7779dc4b17958488e974c6be9a42ce37fb3b.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.eaed7779dc4b17958488e974c6be9a42ce37fb3b.001.1",
+                "areaDesc": "Rota; Tinian; Saipan",
+                "geocode": {
+                    "SAME": [
+                        "069100",
+                        "069120",
+                        "069110"
+                    ],
+                    "UGC": [
+                        "MPZ001",
+                        "MPZ002",
+                        "MPZ003"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/MPZ001",
+                    "https://api.weather.gov/zones/forecast/MPZ002",
+                    "https://api.weather.gov/zones/forecast/MPZ003"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d330fc059b5e87f096ef594660f5cf3456039f3.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.6d330fc059b5e87f096ef594660f5cf3456039f3.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2026-04-16T15:42:00+10:00"
+                    }
+                ],
+                "sent": "2026-04-16T20:17:00+10:00",
+                "effective": "2026-04-16T20:17:00+10:00",
+                "onset": "2026-04-16T20:17:00+10:00",
+                "expires": "2026-04-17T04:30:00+10:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Extreme",
+                "certainty": "Likely",
+                "urgency": "Immediate",
+                "event": "Typhoon Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Tiyan GU",
+                "headline": "Typhoon Warning issued April 16 at 8:17PM ChST by NWS Tiyan GU",
+                "description": "...TYPHOON SINLAKU MOVING NORTH-NORTHEAST THROUGH THE NORTHERN\nCNMI TO THE WEST OF PAGAN...\n\n.NEW INFORMATION...\nNone.\n\n.AREAS AFFECTED...\nThis local statement provides important information and\nrecommended actions for people in the Northern Marianas.\n\n.WATCHES/WARNINGS...\nA Typhoon Warning continues for Rota, Tinian, Saipan, Alamagan,\nPagan, and Agrihan.\n\nPlease check the latest public and marine forecasts for detailed\ninformation about additional hazards.\n\n.STORM INFORMATION...\nAt 7 PM ChST...the center of Typhoon Sinlaku (04W) was located\nnear latitude 18.0N...longitude 144.6E. This was about 75 miles\nwest of Pagan, 85 miles west-northwest of Alamagan, 85 miles\nsouthwest of Agrihan, and 310 miles north of Guam. Storm motion\nwas north-northeast, 10 degrees, at 7 mph. Storm intensity was\n115 mph.\n\n.SITUATION OVERVIEW...\nThe eye of Typhoon Sinlaku (04W) is moving north-northeast and has\npicked up forward speed since early this afternoon, moving at\nroughly 7 to 9 mph. The eye is currently west of Pagan, well\nnorth-northwest of Tinian and Saipan. As Sinlaku moves through\nthe northern CNMI tonight and Friday, it is forecast to curve\nfurther to the northeast, passing west, then north of Agrihan\nthrough Friday afternoon.",
+                "instruction": "People should remain in a designated shelter or in a sturdy and\nreinforced concrete building to ride out the storm as tropical storm\nforce winds are occurring at Rota, Tinian, and Saipan. Due to the\nsize of the storm, the latest forecast has tropical storm force\nwinds continuing over northern Rota waters over the next few hours\ntonight, and through the very early morning hours Friday for\nTinian and Saipan. Even when winds start to decrease, remain\nindoors until the \"all clear\" is given. Strong to tropical storm\nforce gusts remain a possibility for the next day or two,\nespecially with any passing shower.\n\nDamage to remaining metal roof homes remains possible.\nElectricity and water will remain unavailable for days and perhaps\nweeks after the storm passes. Most trees will be snapped or\nuprooted. Fallen trees may cut off residential areas for days to\nweeks.\n\nStay indoors during heavy rain and windy conditions associated with\nTyphoon Sinlaku (04W). The window of time to complete preparations\nfor the protection of life and property has closed. Find shelter to\nride out the storm. Remain in a sturdy shelter until the \"all clear\"\nis given. Heed the advice of your local emergency managers and\nofficials, and continue to monitor forecasts by your local National\nWeather Service office in Tiyan, Guam.\n\n.WIND INFORMATION...\nNortheasterly tropical storm force winds around 65 mph are expected\nthis evening with typhoon winds around 75 mph possible as Sinlaku\npasses to the west, and winds shift towards the southeast. The\nsize of the storm and overall storm motion will maintain southeast\ntropical storm winds through Friday afternoon as Sinlaku\ncontinues on its accelerated northward trek after exiting the\nMarianas later in the week.\n\n.COASTAL INUNDATION AND SURF INFORMATION...\nSeas of 20 to 30 feet remain possible, with dangerous surf and\nsignificant coastal inundation and beach erosion possible.\n\n.OTHER STORM EFFECTS...\nHeavy, intense rainfall with TY Sinlaku is likely tonight and\nFriday, bringing additional rainfall amounts of 3 to 5 inches by\nthe weekend, with rainfall amounts upwards of 10 to 15 inches near\nthe center, as the system moves across the northern CNMI. The\nexact track of Sinlaku will determine where the heaviest rainfall\nwill set up across the islands.\n\n...PAGAN...\n\n...A TYPHOON WARNING REMAINS IN EFFECT FOR PAGAN...\n\nStay indoors during heavy rain and windy conditions associated with\nTyphoon Sinlaku (04W). The window of time to complete preparations\nfor the protection of life and property has closed. Find shelter to\nride out the storm. Remain in a sturdy shelter until the \"all clear\"\nis given. Heed the advice of your local emergency managers and\nofficials, and continue to monitor forecasts by your local National\nWeather Service office in Tiyan, Guam.\n\n.WIND INFORMATION...\nNortheasterly tropical storm force winds around 65 mph are\nexpected to increase tonight with typhoon winds around 75 mph as\nSinlaku passes to the west, and winds shift toward the south to\nsoutheast. The size of the storm and overall storm motion will\nmaintain southeast tropical storm winds through Friday evening as\nSinlaku continues on its accelerated northward trek after exiting\nthe Marianas later in the week.\n\n.COASTAL INUNDATION AND SURF INFORMATION...\nSeas of 20 to 30 feet remain possible, with dangerous surf and\nsignificant coastal inundation and beach erosion possible.\n\n.OTHER STORM EFFECTS...\nHeavy, intense rainfall with TY Sinlaku is likely tonight and\nFriday, bringing additional rainfall amounts of 5 to 7 inches by\nthe weekend, with rainfall amounts upwards of 10 to 15 inches near\nthe center, as the system moves across the northern CNMI. The\nexact track of Sinlaku will determine where the heaviest rainfall\nwill set up across the islands.\n\nStay indoors during heavy rain and windy conditions associated with\nTyphoon Sinlaku (04W). The window of time to complete preparations\nfor the protection of life and property has closed. Find shelter to\nride out the storm. Remain in a sturdy shelter until the \"all clear\"\nis given. Heed the advice of your local emergency managers and\nofficials, and continue to monitor forecasts by your local National\nWeather Service office in Tiyan, Guam.\n\n.WIND INFORMATION...\nNortheasterly tropical storm force winds around 65 mph will be\nincreasing this evening with typhoon winds around 95 mph possibly\nreaching the island late tonight as Sinlaku passes nearby to the\nwest, and winds shift toward the south to southeast. The size of\nthe storm and overall storm motion will maintain southeast\ntropical storm winds into Friday night as Sinlaku continues on its\naccelerated northward trek after exiting the Marianas.\n\n.COASTAL INUNDATION AND SURF INFORMATION...\nSeas of 20 to 30 feet will be possible, with dangerous surf and\nsignificant coastal inundation and beach erosion possible.\n\n.OTHER STORM EFFECTS...\nHeavy, intense rainfall with TY Sinlaku is likely tonight and\ntomorrow, bringing additional rainfall amounts of 6 to 9 inches by\nthe weekend, with rainfall amounts upwards of 10 to 15 inches\nnear the center, as the system moves across the northern CNMI. The\nexact track of Sinlaku will determine where the heaviest rainfall\nwill set up across the islands.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "HLSPQ1"
+                    ],
+                    "WMOidentifier": [
+                        "WTPQ81 PGUM 161017"
+                    ],
+                    "NWSheadline": [
+                        "TYPHOON WARNING REMAINS IN EFFECT"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.CON.PGUM.TY.W.4004.000000T0000Z-000000T0000Z/"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.27fea596570008f094a7ea608534d0c72071900c.002.1,2026-04-16T08:59:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.65e941b63b99d158ce7d8b732c32cb68c304f4d6.002.1,2026-04-16T03:03:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b8afb27cc3f8ec666cc3c6ab4b329ceeb533d00e.002.1,2026-04-15T20:58:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9d612bdc06d8137fdd2a07229c4669cd594ed1be.002.1,2026-04-15T15:57:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5fdb97dc83298734c03bc41468abc6927e0c7b68.002.1,2026-04-15T09:30:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.efe3ccd96055009853ce757cb5d3ea53c2296911.002.1,2026-04-15T03:30:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8b8d1d20e6b1c113f5b07da628f60a7182415fba.002.1,2026-04-14T22:02:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.aa2b77add6505a4d2749bdb67d3f831d200d354e.002.1,2026-04-14T13:17:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.be056ba559c1fe09ddc3aebc729d2358096d066b.002.1,2026-04-14T09:21:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2096a7e99d5db4f0eaff6c6c8bffe7aba5c08794.002.1,2026-04-14T03:43:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2f39e010f79f450e141979fecf1e4a710ddb76ba.002.1,2026-04-13T21:29:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5ddf73847936c0e51298e9b56b024d1b2234f605.002.1,2026-04-13T15:24:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5d821ce3b1f1873b285ff0d6db92a9b955b38ae2.002.1,2026-04-13T09:28:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0d73edb2a8e7b247f13705f9089044c97a1ebf4b.002.1,2026-04-13T03:42:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5db8125f45aa50fef79cd233fa738f7bbdf390c3.002.1,2026-04-12T21:19:00+10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1a18c9721553591a20cd94d51f91c9d842b6bbf4.002.2,2026-04-12T15:56:00+10:00"
+                    ]
+                },
+                "scope": "Public",
+                "code": "IPAWSv1.0",
+                "language": "en-US",
+                "web": "http://www.weather.gov",
+                "eventCode": {
+                    "SAME": [
+                        "HUW"
+                    ],
+                    "NationalWeatherService": [
+                        "TYW"
                     ]
                 }
             }
         }
     ],
-    "title": "Current watches, warnings, and advisories for 47.76 N, 108.54 W",
-    "updated": "2026-05-14T18:30:56+00:00"
+    "title": "Current watches, warnings, and advisories for 15.02 N, 145.62 E",
+    "updated": "2026-04-16T11:57:03+00:00"
 }
