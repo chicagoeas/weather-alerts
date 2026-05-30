@@ -10,393 +10,103 @@
     "type": "FeatureCollection",
     "features": [
         {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
+            "id": "https://api.weather.gov/alerts/AS-ID-c106b27c-171a-4d64-b7a3-33b284f690b7",
             "type": "Feature",
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [
                     [
                         [
-                            -97.89,
-                            36.3
+                            -112.2293,
+                            42.6824
                         ],
                         [
-                            -97.93,
-                            36.38
+                            -112.2006,
+                            42.6818
                         ],
                         [
-                            -97.64,
-                            36.54
+                            -112.1664,
+                            42.6422
                         ],
                         [
-                            -97.57,
-                            36.36
+                            -112.1628,
+                            42.6319
                         ],
                         [
-                            -97.89,
-                            36.3
+                            -112.1621,
+                            42.6108
+                        ],
+                        [
+                            -112.2124,
+                            42.6113
+                        ],
+                        [
+                            -112.2293,
+                            42.6824
                         ]
                     ]
                 ]
             },
             "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
+                "@id": "https://api.weather.gov/alerts/AS-ID-c106b27c-171a-4d64-b7a3-33b284f690b7",
                 "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.7379b62cf6550b2ceb7c240cb4e521ec81577ec9.001.1",
-                "areaDesc": "Garfield, OK",
+                "id": "AS-ID-c106b27c-171a-4d64-b7a3-33b284f690b7",
+                "areaDesc": "McCammon Boil Order",
                 "geocode": {
                     "SAME": [
-                        "040047"
-                    ],
-                    "UGC": [
-                        "OKC047"
+                        "016005"
                     ]
                 },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/OKC047"
-                ],
-                "references": [
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bca180e1657b8f00268c3ad4fe01b64aef43b7da.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.bca180e1657b8f00268c3ad4fe01b64aef43b7da.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-04-23T19:59:00-05:00"
-                    },
-                    {
-                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8554a8994bb26101f7c67b9459a22d40c91f0ad2.001.1",
-                        "identifier": "urn:oid:2.49.0.1.840.0.8554a8994bb26101f7c67b9459a22d40c91f0ad2.001.1",
-                        "sender": "w-nws.webmaster@noaa.gov",
-                        "sent": "2026-04-23T20:13:00-05:00"
-                    }
-                ],
-                "sent": "2026-04-23T20:22:00-05:00",
-                "effective": "2026-04-23T20:22:00-05:00",
-                "onset": "2026-04-23T20:22:00-05:00",
-                "expires": "2026-04-23T20:45:00-05:00",
-                "ends": "2026-04-23T20:45:00-05:00",
+                "affectedZones": [],
+                "references": [],
+                "sent": "2026-05-07T16:50:19-06:00",
+                "effective": "2026-05-07T16:50:19-06:00",
+                "onset": null,
+                "expires": "2026-05-07T21:50:19-06:00",
+                "ends": null,
                 "status": "Actual",
-                "messageType": "Update",
-                "category": "Met",
+                "messageType": "Alert",
+                "category": "Safety",
                 "severity": "Extreme",
                 "certainty": "Observed",
                 "urgency": "Immediate",
-                "event": "Tornado Warning",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Norman OK",
-                "headline": "Tornado Warning issued April 23 at 8:22PM CDT until April 23 at 8:45PM CDT by NWS Norman OK",
-                "description": "...A TORNADO WARNING REMAINS IN EFFECT UNTIL 845 PM CDT FOR CENTRAL\nGARFIELD COUNTY...\n\nAt 821 PM CDT, a confirmed large and destructive tornado was located\nnear Vance Air Force Base, moving east at 20 mph.\n\nTORNADO EMERGENCY FOR SOUTHEAST ENID! This is a PARTICULARLY\nDANGEROUS SITUATION. TAKE COVER NOW!\n\nHAZARD...Deadly tornado.\n\nSOURCE...Broadcast media confirmed tornado.\n\nIMPACT...You are in a life-threatening situation. Flying debris may\nbe deadly to those caught without shelter. Mobile homes\nwill be destroyed. Considerable damage to homes,\nbusinesses, and vehicles is likely and complete destruction\nis possible.\n\nLocations impacted include...\nEnid, Waukomis, Breckenridge, Fairmont, and Vance Air Force Base.",
-                "instruction": "To repeat, an extremely dangerous and potentially deadly tornado is\non the ground. To protect your life, TAKE COVER NOW! Move to an\ninterior room on the lowest floor of a sturdy building. Avoid\nwindows. If in a mobile home, a vehicle or outdoors, move to the\nclosest substantial shelter and protect yourself from flying debris.",
-                "response": "Shelter",
+                "event": "Local Area Emergency",
+                "sender": "junderwood@bannockcounty.us",
+                "senderName": "201110, Bannock County, Bannock County",
+                "headline": "McCammon Boil Order",
+                "description": "McCammon City Water Boil Order - Effective ImmediatelyPer McCammon City Mayor Karlene Hall:  If you lost water pressure today Thursday May 7 2026 effective immediately you are on a water boil order.  A notice from McCammon City will follow.  Mayor Hall  208-254-3200",
+                "instruction": null,
+                "response": "Execute",
                 "note": null,
                 "parameters": {
-                    "AWIPSidentifier": [
-                        "SVSOUN"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS54 KOUN 240122"
-                    ],
-                    "NWSheadline": [
-                        "TORNADO EMERGENCY FOR SOUTHEAST ENID"
-                    ],
-                    "eventMotionDescription": [
-                        "2026-04-24T01:21:00-00:00...storm...254DEG...19KT...36.34,-97.86"
-                    ],
-                    "maxHailSize": [
-                        "1.75"
-                    ],
-                    "tornadoDetection": [
-                        "OBSERVED"
-                    ],
-                    "tornadoDamageThreat": [
-                        "CATASTROPHIC"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM"
-                    ],
                     "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.CON.KOUN.TO.W.0036.000000T0000Z-260424T0145Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-04-23T20:45:00-05:00"
+                        "CIV"
                     ],
                     "WEAHandling": [
-                        "Imminent Threat"
+                        "Public Safety"
                     ],
                     "CMAMtext": [
-                        "NWS: TORNADO EMERGENCY til 8:45 PM CDT. Tornado spotted in this area. Take shelter now!"
+                        "McCammon City Water Boil Order Effective Immediately Notice from McCammon City will follow"
                     ],
                     "CMAMlongtext": [
-                        "National Weather Service: TORNADO EMERGENCY until 8:45 PM CDT. Tornado spotted in this area. This is a life-threatening situation. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building. If you are outdoors, in a mobile home, or in a vehicle move to the closest substantial shelter and protect yourself from flying debris."
+                        "McCammon City Water Boil Order - Effective Immediately, Per McCammon City Mayor Karlene Hall:  If you lost water pressure today, Thursday, May 7, 2026, effective immediately you are on a water boil order.  A notice from McCammon City will follow.  Mayor Hall, 208-254-3200"
+                    ],
+                    "timezone": [
+                        "MDT"
                     ]
                 },
                 "scope": "Public",
                 "code": "IPAWSv1.0",
                 "language": "en-US",
-                "web": "http://www.weather.gov",
+                "web": null,
                 "eventCode": {
                     "SAME": [
-                        "TOR"
-                    ],
-                    "NationalWeatherService": [
-                        "TOW"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -97.75,
-                            36.59
-                        ],
-                        [
-                            -97.58,
-                            36.4
-                        ],
-                        [
-                            -97.94,
-                            36.25
-                        ],
-                        [
-                            -98.11,
-                            36.25
-                        ],
-                        [
-                            -98.11,
-                            36.37
-                        ],
-                        [
-                            -97.81,
-                            36.6
-                        ],
-                        [
-                            -97.75,
-                            36.59
-                        ]
-                    ]
-                ]
-            },
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.d5fdfffe7221b9c1f7ef5569ef993624f1f59bcd.001.1",
-                "areaDesc": "Garfield, OK",
-                "geocode": {
-                    "SAME": [
-                        "040047"
-                    ],
-                    "UGC": [
-                        "OKC047"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/OKC047"
-                ],
-                "references": [],
-                "sent": "2026-04-23T19:40:00-05:00",
-                "effective": "2026-04-23T19:40:00-05:00",
-                "onset": "2026-04-23T19:40:00-05:00",
-                "expires": "2026-04-23T20:30:00-05:00",
-                "ends": "2026-04-23T20:30:00-05:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Severe",
-                "certainty": "Observed",
-                "urgency": "Immediate",
-                "event": "Severe Thunderstorm Warning",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Norman OK",
-                "headline": "Severe Thunderstorm Warning issued April 23 at 7:40PM CDT until April 23 at 8:30PM CDT by NWS Norman OK",
-                "description": "SVROUN\n\nThe National Weather Service in Norman has issued a\n\n* Severe Thunderstorm Warning for...\nCentral Garfield County in northern Oklahoma...\n\n* Until 830 PM CDT.\n\n* At 740 PM CDT, a severe thunderstorm was located near Drummond,\nmoving northeast at 25 mph.\n\nHAZARD...Ping pong ball size hail and 60 mph wind gusts.\n\nSOURCE...Radar indicated.\n\nIMPACT...People and animals outdoors will be injured. Expect hail\ndamage to roofs, siding, windows, and vehicles. Expect\nwind damage to roofs, siding, and trees.\n\n* Locations impacted include...\nEnid, Waukomis, Lahoma, Drummond, Kremlin, Breckenridge, Fairmont,\nVance Air Force Base, and North Enid.",
-                "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nA Tornado Watch remains in effect for the warned area.",
-                "response": "Shelter",
-                "note": null,
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "SVROUN"
-                    ],
-                    "WMOidentifier": [
-                        "WUUS54 KOUN 240040"
-                    ],
-                    "eventMotionDescription": [
-                        "2026-04-24T00:40:00-00:00...storm...234DEG...20KT...36.32,-98.02"
-                    ],
-                    "windThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxWindGust": [
-                        "60 MPH"
-                    ],
-                    "hailThreat": [
-                        "RADAR INDICATED"
-                    ],
-                    "maxHailSize": [
-                        "1.50"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.NEW.KOUN.SV.W.0250.260424T0040Z-260424T0130Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-04-23T20:30:00-05:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "SVR"
-                    ],
-                    "NationalWeatherService": [
-                        "SVW"
-                    ]
-                }
-            }
-        },
-        {
-            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
-            "type": "Feature",
-            "geometry": null,
-            "properties": {
-                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
-                "@type": "wx:Alert",
-                "id": "urn:oid:2.49.0.1.840.0.7df0757bb183d953a2e4a83c22f76f5abb5c83de.001.1",
-                "areaDesc": "Alfalfa, OK; Blaine, OK; Caddo, OK; Canadian, OK; Cleveland, OK; Comanche, OK; Garfield, OK; Grady, OK; Grant, OK; Kay, OK; Kingfisher, OK; Logan, OK; McClain, OK; Major, OK; Noble, OK; Oklahoma, OK; Payne, OK",
-                "geocode": {
-                    "SAME": [
-                        "040003",
-                        "040011",
-                        "040015",
-                        "040017",
-                        "040027",
-                        "040031",
-                        "040047",
-                        "040051",
-                        "040053",
-                        "040071",
-                        "040073",
-                        "040083",
-                        "040087",
-                        "040093",
-                        "040103",
-                        "040109",
-                        "040119"
-                    ],
-                    "UGC": [
-                        "OKC003",
-                        "OKC011",
-                        "OKC015",
-                        "OKC017",
-                        "OKC027",
-                        "OKC031",
-                        "OKC047",
-                        "OKC051",
-                        "OKC053",
-                        "OKC071",
-                        "OKC073",
-                        "OKC083",
-                        "OKC087",
-                        "OKC093",
-                        "OKC103",
-                        "OKC109",
-                        "OKC119"
-                    ]
-                },
-                "affectedZones": [
-                    "https://api.weather.gov/zones/county/OKC003",
-                    "https://api.weather.gov/zones/county/OKC011",
-                    "https://api.weather.gov/zones/county/OKC015",
-                    "https://api.weather.gov/zones/county/OKC017",
-                    "https://api.weather.gov/zones/county/OKC027",
-                    "https://api.weather.gov/zones/county/OKC031",
-                    "https://api.weather.gov/zones/county/OKC047",
-                    "https://api.weather.gov/zones/county/OKC051",
-                    "https://api.weather.gov/zones/county/OKC053",
-                    "https://api.weather.gov/zones/county/OKC071",
-                    "https://api.weather.gov/zones/county/OKC073",
-                    "https://api.weather.gov/zones/county/OKC083",
-                    "https://api.weather.gov/zones/county/OKC087",
-                    "https://api.weather.gov/zones/county/OKC093",
-                    "https://api.weather.gov/zones/county/OKC103",
-                    "https://api.weather.gov/zones/county/OKC109",
-                    "https://api.weather.gov/zones/county/OKC119"
-                ],
-                "references": [],
-                "sent": "2026-04-23T17:12:00-05:00",
-                "effective": "2026-04-23T17:12:00-05:00",
-                "onset": "2026-04-23T17:12:00-05:00",
-                "expires": "2026-04-23T23:00:00-05:00",
-                "ends": "2026-04-23T23:00:00-05:00",
-                "status": "Actual",
-                "messageType": "Alert",
-                "category": "Met",
-                "severity": "Extreme",
-                "certainty": "Possible",
-                "urgency": "Future",
-                "event": "Tornado Watch",
-                "sender": "w-nws.webmaster@noaa.gov",
-                "senderName": "NWS Norman OK",
-                "headline": "Tornado Watch issued April 23 at 5:12PM CDT until April 23 at 11:00PM CDT by NWS Norman OK",
-                "description": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 137 IN\nEFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS\n\nIN OKLAHOMA THIS WATCH INCLUDES 17 COUNTIES\n\nIN CENTRAL OKLAHOMA\n\nCANADIAN              CLEVELAND             GRADY\nKINGFISHER            LOGAN                 MCCLAIN\nOKLAHOMA              PAYNE\n\nIN NORTHERN OKLAHOMA\n\nGARFIELD              GRANT                 KAY\nNOBLE\n\nIN NORTHWEST OKLAHOMA\n\nALFALFA               BLAINE                MAJOR\n\nIN SOUTHWEST OKLAHOMA\n\nCADDO                 COMANCHE\n\nTHIS INCLUDES THE CITIES OF ANADARKO, BLACKWELL, BLANCHARD,\nCARMEN, CHEROKEE, CHICKASHA, CONCHO, EL RENO, ENID, FAIRVIEW,\nGEARY, GUTHRIE, HELENA, HENNESSEY, HINTON, KINGFISHER, LAMONT,\nLAWTON, MEDFORD, MOORE, MUSTANG, NEWCASTLE, NORMAN, OKARCHE,\nOKEENE, OKLAHOMA CITY, PERRY, PONCA CITY, POND CREEK, PURCELL,\nSTILLWATER, TUTTLE, WAKITA, WATONGA, AND YUKON.",
-                "instruction": null,
-                "response": "Monitor",
-                "note": null,
-                "parameters": {
-                    "AWIPSidentifier": [
-                        "WCNOUN"
-                    ],
-                    "WMOidentifier": [
-                        "WWUS64 KOUN 232212"
-                    ],
-                    "BLOCKCHANNEL": [
-                        "EAS",
-                        "NWEM",
-                        "CMAS"
-                    ],
-                    "EAS-ORG": [
-                        "WXR"
-                    ],
-                    "VTEC": [
-                        "/O.NEW.KOUN.TO.A.0137.260423T2212Z-260424T0400Z/"
-                    ],
-                    "eventEndingTime": [
-                        "2026-04-23T23:00:00-05:00"
-                    ]
-                },
-                "scope": "Public",
-                "code": "IPAWSv1.0",
-                "language": "en-US",
-                "web": "http://www.weather.gov",
-                "eventCode": {
-                    "SAME": [
-                        "TOA"
-                    ],
-                    "NationalWeatherService": [
-                        "TOA"
+                        "LAE"
                     ]
                 }
             }
         }
     ],
-    "title": "Current watches, warnings, and advisories for 36.43 N, 97.79 W",
-    "updated": "2026-04-24T01:22:58+00:00"
+    "title": "Current watches, warnings, and advisories for 42.66 N, 112.19 W",
+    "updated": "2026-05-07T22:51:11+00:00"
 }
